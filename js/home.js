@@ -89,7 +89,7 @@ const courseInfoSection = {
                           <i class="far fa-building fa-lg" title="location"></i>
                       </span>
                       <span id="class-location">
-                          <a href="https://canvas.brown.edu" target="_blank">Zoomer</a>
+                          <a href="https://canvas.brown.edu" target="_blank">Zoom</a>
                       </span>
                   </div>
                   <div id="prereqs-container" class="d-flex flex-row">
