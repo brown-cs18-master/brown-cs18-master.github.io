@@ -1,0 +1,14 @@
+a,
+th {
+    color: green;
+}
+
+a:hover,
+a:active,
+td {
+    color: darkgoldenrod;
+}
+
+a:visited {
+    color: #266079;
+}

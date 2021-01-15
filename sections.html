@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>CS18 | Sections</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="Homepage for Brown CS18 (An Integrated Introduction)">
+    <meta name="keywords" content="Brown CS, course, CS18">
+    <meta name="author" content="CS18 Course Staff">
+    <meta name="copyright" content="CS18 Course Staff">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preload" href="webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="">
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sections.css">
+</head>
+
+<body>
+    <noscript>
+        <p>
+            This page uses Javascript to render HTML components, please enable it to best view this page
+        </p>
+    </noscript>
+    <div id="app" class="h-100">
+        <page-navbar :primary-color="curPageThemeColor" :secondary-color="navbarBackgroundColor"
+            navbar-background-color="rgba(158, 117, 96, 0.5)" :current-tab-text="currentTabText" :tabnum="tabnum"
+            :stop-theme-colors="pageThemeColors" :page-filepaths="pageFilepaths" :label-texts="tabTexts"
+            :icon-classes="iconClasses"></page-navbar>
+        <page-background background-image-url="imgs/section.jpg"></page-background>
+        <page-content :cur-page-theme-color="curPageThemeColor" :cur-page-icon-classes="curPageIconClasses">
+        </page-content>
+        <page-footer :cur-page-theme-color="curPageThemeColor" footer-background-color="rgba(158, 117, 96, 0.6)">
+        </page-footer>
+    </div>
+    <!-- Vue -->
+    <!-- production version, optimized for size and speed -->
+    <script src="js/vue.min.js"></script>
+    <!-- moment.js -->
+    <script src="js/moment.js"></script>
+    <!-- custom scripts -->
+    <!-- page specific script -->
+    <script src="js/modernizr-webp.js"></script>
+    <script type="module" src="js/sections.js"></script>
+    <!-- shared vue instance -->
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>
