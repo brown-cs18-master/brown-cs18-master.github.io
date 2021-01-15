@@ -53,7 +53,7 @@ const largeNavbarStopCircle = {
                 v-if="!isCurrentStop"
                 v-show="hovering"
                 :style="{ color: stopThemeColor }"
-                class="fas fa-coffee fa-xs"></i>
+                class="fas fa-search fa-xs"></i>
           </div>
     `
 };
