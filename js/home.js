@@ -1,21 +1,21 @@
-import pageClickCopy from './page-click-copy.js';
-import pageSectionTitle from './page-section.js';
+import pageClickCopy from "./page-click-copy.js";
+import pageSectionTitle from "./page-section.js";
 
 const csPrereq = {
-    props: {
-        courseNum: String,
-        backgroundColor: String,
-        moreText: String
+  props: {
+    courseNum: String,
+    backgroundColor: String,
+    moreText: String,
+  },
+  computed: {
+    id: function () {
+      return `prereq-csci${this.courseNum}`;
     },
-    computed: {
-        id: function () {
-            return `prereq-csci${this.courseNum}`;
-        },
-        href: function () {
-            return `https://cs.brown.edu/courses/csci${this.courseNum}`;
-        },
+    href: function () {
+      return `https://cs.brown.edu/courses/csci${this.courseNum}`;
     },
-    template: `
+  },
+  template: `
         <a
           :id="id"
           class="px-4 mx-2 second-prereq badge text-white"
@@ -30,16 +30,48 @@ const csPrereq = {
 };
 
 const courseInfoSection = {
-    props: {
-        curPageThemeColor: String,
-        curPageIconClasses: Array,
-    },
-    components: {
-        'cs-prereq': csPrereq,
-        'page-section-title': pageSectionTitle,
-    },
-    template: `
-        <section class="container-fluid d-flex flex-wrap flex-row my-5 px-0 px-sm-5">
+  props: {
+    curPageThemeColor: String,
+    curPageIconClasses: Array,
+  },
+  components: {
+    "cs-prereq": csPrereq,
+    "page-section-title": pageSectionTitle,
+  },
+  template: `
+    <section class="container-fluid d-flex flex-sm-wrap flex-md-nowrap flex-lg-nowrap flex-row my-5 px-0 px-sm-5">
+        <div class="d-flex flex-lg-nowrap">
+        <page-section-title 
+              :icon-classes="curPageIconClasses"
+              text=""
+              :style-object="{'color': curPageThemeColor, 'text-decoration-line': 'underline', 
+              'text-decoration-style': 'wavy', 'width': 'fit-content!important', 'margin-right': '0!important' }"
+            ></page-section-title>
+            <div
+              class="flex-fill d-flex flex-column ml-4 ml-sm-5"
+              :style="{ color: curPageThemeColor, 'font-size': '1rem' }"
+            >
+            <div id="course-description-container" class="mb-4" style="font-size: 1.1rem; margin-left: 0">
+                <span class="mr-4" :style="{ color: curPageThemeColor }">
+                   CS18 is a second-semester course on computing and programming. 
+                   We explore the use and design of several core data structures 
+                   and algorithms, assess the impacts of data structures and algorithms 
+                   on time and space resources as well as users and society, learn 
+                   object oriented programming and design, and develop essential
+                    software skills around testing, debugging, and version control. 
+                    While most students taking CS18 are considering concentrations 
+                    in or that use CS, all students who have completed a prerequisite 
+                    course (0111, 0112, 0150, 0170, 0190) are welcome (and have 
+                    succeeded in the past!).
+                    <br/>
+                     <br style="font-size: 0.75rem"/>
+                    If you are coming from CS15, see this page for your alternative materials for the first week and a half of the course.
+                </span>
+          </div>
+          </div>
+          </div>
+          </section>
+          <section class="container-fluid d-flex flex-sm-wrap flex-md-nowrap flex-lg-nowrap flex-row my-5 px-0 px-sm-5">
             <page-section-title
               :icon-classes="curPageIconClasses"
               text="course info"
@@ -47,7 +79,7 @@ const courseInfoSection = {
             ></page-section-title>
             <div
               class="flex-fill d-flex flex-column ml-4 ml-sm-5"
-              :style="{ color: curPageThemeColor, 'font-size': 'larger' }"
+              :style="{ color: curPageThemeColor, 'font-size': '1.2rem' }"
             >
                 <div id="anonymous-feedback-container" class="mb-4">
                     <span class="mr-4">
@@ -116,15 +148,15 @@ const courseInfoSection = {
 };
 
 const courseTopic = {
-    props: {
-        week: String,
-        name: String,
-        curPageThemeColor: String,
-    },
-    components: {
-        'page-click-copy': pageClickCopy,
-    },
-    template: `
+  props: {
+    week: String,
+    name: String,
+    curPageThemeColor: String,
+  },
+  components: {
+    "page-click-copy": pageClickCopy,
+  },
+  template: `
         <li
           class="list-group-item list-group-item-action border-0 border-left"
           :style="{color: curPageThemeColor}"
@@ -136,29 +168,29 @@ const courseTopic = {
 };
 
 const courseTopics = {
-    props: {
-        curPageThemeColor: String,
-    },
-    components: {
-        'course-topic': courseTopic,
-    },
-    data: function () {
-        return {
-            topics: [
-                ['1', 'Object-Oriented, Imperative, and Functional Programming'],
-                ['2', 'Runtime'],
-                ['3', 'Mutation and List Implementation'],
-                ['4', 'Arrays'],
-                ['5', 'System Design'],
-                ['6', 'Hashtables and Space'],
-                ['7', 'Scala'],
-                ['8', 'Heaps'],
-                ['9', 'Dynamic Programming'],
-                ['10', 'Graphs'],
-            ],
-        };
-    },
-    template: `
+  props: {
+    curPageThemeColor: String,
+  },
+  components: {
+    "course-topic": courseTopic,
+  },
+  data: function () {
+    return {
+      topics: [
+        ["1", "Object-Oriented, Imperative, and Functional Programming"],
+        ["2", "Runtime"],
+        ["3", "Mutation and List Implementation"],
+        ["4", "Arrays"],
+        ["5", "System Design"],
+        ["6", "Hashtables and Space"],
+        ["7", "Scala"],
+        ["8", "Heaps"],
+        ["9", "Dynamic Programming"],
+        ["10", "Graphs"],
+      ],
+    };
+  },
+  template: `
         <div id="topics-container">
             <p class="badge text-white text-uppercase px-4" :style="{'background-color': curPageThemeColor}">
                 topics
@@ -182,23 +214,23 @@ const courseTopics = {
 };
 
 const learningObjectives = {
-    props: {
-        curPageThemeColor: String,
-    },
-    components: {
-        'course-topic': courseTopic,
-    },
-    data: function () {
-        return {
-            topics: [
-                ['1', 'Data Structures and Algorithms'],
-                ['2', 'Object-Oriented Programming and Design'],
-                ['3', 'Testing and Validation'],
-                ['4', 'Technical and Social Impact Analysis'],
-            ],
-        };
-    },
-    template: `
+  props: {
+    curPageThemeColor: String,
+  },
+  components: {
+    "course-topic": courseTopic,
+  },
+  data: function () {
+    return {
+      topics: [
+        ["1", "Data Structures and Algorithms"],
+        ["2", "Object-Oriented Programming and Design"],
+        ["3", "Testing and Validation"],
+        ["4", "Technical and Social Impact Analysis"],
+      ],
+    };
+  },
+  template: `
         <div id="topics-container">
             <p class="badge text-white text-uppercase px-4" :style="{'background-color': curPageThemeColor}">
                 objectives
@@ -222,15 +254,15 @@ const learningObjectives = {
 };
 
 const courseMaterialSection = {
-    props: {
-        curPageThemeColor: String,
-        curPageIconClasses: Array,
-    },
-    components: {
-        'course-topics': courseTopics,
-        'page-section-title': pageSectionTitle,
-    },
-    template: `
+  props: {
+    curPageThemeColor: String,
+    curPageIconClasses: Array,
+  },
+  components: {
+    "course-topics": courseTopics,
+    "page-section-title": pageSectionTitle,
+  },
+  template: `
         <section class="container-fluid d-flex flex-wrap flex-row my-5 px-0 px-sm-5">
             <page-section-title
               :icon-classes="curPageIconClasses"
@@ -251,15 +283,15 @@ const courseMaterialSection = {
 };
 
 const learningObjectivesSection = {
-    props: {
-        curPageThemeColor: String,
-        curPageIconClasses: Array,
-    },
-    components: {
-        'course-topics': learningObjectives,
-        'page-section-title': pageSectionTitle,
-    },
-    template: `
+  props: {
+    curPageThemeColor: String,
+    curPageIconClasses: Array,
+  },
+  components: {
+    "course-topics": learningObjectives,
+    "page-section-title": pageSectionTitle,
+  },
+  template: `
         <section class="container-fluid d-flex flex-wrap flex-row my-5 px-0 px-sm-5">
             <page-section-title
               :icon-classes="curPageIconClasses"
@@ -279,17 +311,17 @@ const learningObjectivesSection = {
     `,
 };
 
-Vue.component('page-content', {
-    props: {
-        curPageThemeColor: String,
-        curPageIconClasses: Array,
-    },
-    components: {
-        'course-info-section': courseInfoSection,
-        'course-material-section': courseMaterialSection,
-        'learning-objectives-section': learningObjectivesSection,
-    },
-    template: `
+Vue.component("page-content", {
+  props: {
+    curPageThemeColor: String,
+    curPageIconClasses: Array,
+  },
+  components: {
+    "course-info-section": courseInfoSection,
+    "course-material-section": courseMaterialSection,
+    "learning-objectives-section": learningObjectivesSection,
+  },
+  template: `
         <main>
             <course-info-section
                 :cur-page-theme-color="curPageThemeColor"
