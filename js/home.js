@@ -66,7 +66,7 @@ const courseInfoSection = {
                     succeeded in the past!).
                     <br/>
                      <br style="font-size: 0.75rem"/>
-                    If you are coming from CS15, see this page [TODO: LINK] for your alternative materials for the first week and a half of the course.
+                    If you are coming from CS15, <a href="coming-from-15.html">see this page for your alternative materials</a> for the first week and a half of the course.
                 </span>
           </div>
           </div>
