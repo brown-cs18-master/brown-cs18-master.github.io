@@ -361,7 +361,7 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/joe-han.jpg',
                         theme: '',
                         pronouns: 'he/him/his',
-                        hometown: 'East Greenwich, Rhode Island'
+                        hometown: 'Madison, MS'
                     },
                     {
                         cslogin: 'rbush',
