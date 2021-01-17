@@ -435,7 +435,7 @@ Vue.component('page-content', {
                     slidesURL: ''
                 },
                 {
-                    name: 'For-While Loops; Orcale',
+                    name: 'For-While Loops; Oracle',
                     handoutURL: '',
                     out: '02/3',
                     slidesName: 'Slides',
@@ -572,7 +572,7 @@ Vue.component('page-content', {
                   :style="{ color: curPageThemeColor}"
                 >
                     <p>
-                        Homeworks are due on the Due Date at Anywhere-On-Earth time. They can be submitted through <a href="https://www.gradescope.com/courses/224988">Gradescope</a>.
+                        Homeworks are due on the Due Date at Anywhere-On-Earth time. They can be submitted through <a href="https://www.gradescope.com/courses/224988"><b>Gradescope</b></a>.
                     </p>
                     <page-table
                       :tableheads="tableheads"
@@ -601,7 +601,7 @@ Vue.component('page-content', {
                   :style="{ color: curPageThemeColor}"
                 >
                     <p>
-                        There are 12 labs. Labs are synchronized and held virtually. See <a href="https://brown-cs18-master.github.io/hours.html">the calendar</a> for a list of lab times. If you need to reschedule your lab time, please see the course missive.
+                        There are 12 labs. Labs are synchronized and held virtually. See <a href="https://brown-cs18-master.github.io/hours.html"><b>the calendar</b></a> for a list of lab times. If you need to reschedule your lab time, please see the course missive.
                     </p>
                     <page-table
                       :tableheads="labsTableheads"
