@@ -38,6 +38,7 @@ const courseInfoSection = {
   components: {
     "cs-prereq": csPrereq,
     "page-section-title": pageSectionTitle,
+    "page-link": pageLink
   },
   template: `
     <section class="container-fluid d-flex flex-sm-wrap flex-md-nowrap flex-lg-nowrap flex-row my-5 px-0 px-sm-5">
@@ -66,7 +67,7 @@ const courseInfoSection = {
                     succeeded in the past!).
                     <br/>
                      <br style="font-size: 0.75rem"/>
-                    If you are coming from CS15, <a href="coming-from-15.html">see this page for your alternative materials</a> for the first week and a half of the course.
+                    If you are coming from CS15, <page-link href="coming-from-15.html" text="see this page for your alternative materials"></page-link> for the first week and a half of the course.
                 </span>
           </div>
           </div>
@@ -95,7 +96,7 @@ const courseInfoSection = {
                         <i class="far fa-question fa-lg" title="piazza form"></i>
                     </span>
                     <span id="piazza-info">
-                        <a href="" target="_blank">Piazza [TODO: Creat Class and Add Link]</a>
+                        <a href="piazza.com/brown/spring2021/spring2021csci0180/home" target="_blank">Piazza</a>
                     </span>
                 </div>
                 <div id="time-container" class="d-flex flex-row mb-4">
@@ -168,7 +169,7 @@ const essentialLinksSection = {
               :style="{ color: curPageThemeColor, 'font-size': 'larger' }"
             >
                 <ul>
-                    <li><page-link title="piazza" href="" text="Ask questions on Piazza [TODO: Create Piazza and link]"></page-link></li>
+                    <li><page-link title="piazza" href="https://piazza.com/brown/spring2021/spring2021csci0180/home" text="Ask questions on Piazza"></page-link></li>
                     <li><page-link title="zoom link" href="https://canvas.brown.edu/courses/1083823/external_tools/35522" text="Zoom link"></page-link></li>
                     <li><page-link title="admin questions" href="mailto:cs0180headtas@lists.brown.edu" text="Raise administrative/HTA questions via email"></page-link></li>
                     <li><page-link title="ta hours" href="https://brown-cs18-master.github.io/hours.html" text="Find TA/Professor Hours on the Course Calendar"></page-link></li>

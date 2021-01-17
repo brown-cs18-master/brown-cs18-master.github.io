@@ -153,62 +153,62 @@ Vue.component('page-content', {
                     linksURLs: []
                 },
                 {
-                     name: 'Defining and Traversing Recursive Datatypes',
-                     date: '01/27',
-                     noteNames: [],
-                     noteURLs: [
+                    name: 'Defining and Traversing Recursive Datatypes',
+                    date: '01/27',
+                    noteNames: [],
+                    noteURLs: [
 
-                     ],
-                     recordingNames: [],
-                     recordingURLs: [],
-                     practiceNames: [],
-                     practiceURLs: [],
-                     linksNames: [],
-                     linksURLs: []
-                 },
-                 {
-                     name: 'Implement Lists (Functionally) -- Attend main CS18 lecture',
-                     date: '01/29',
-                     noteNames: [],
-                     noteURLs: [
+                    ],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
+                {
+                    name: 'Implement Lists (Functionally) -- Attend main CS18 lecture',
+                    date: '01/29',
+                    noteNames: [],
+                    noteURLs: [
 
-                     ],
-                     recordingNames: [],
-                     recordingURLs: [],
-                     practiceNames: [],
-                     practiceURLs: [],
-                     linksNames: [],
-                     linksURLs: []
-                 },
-                 {
-                     name: 'Justifying Program Runtimes',
-                     date: '02/01',
-                     noteNames: [],
-                     noteURLs: [
+                    ],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
+                {
+                    name: 'Justifying Program Runtimes',
+                    date: '02/01',
+                    noteNames: [],
+                    noteURLs: [
 
-                     ],
-                     recordingNames: [],
-                     recordingURLs: [],
-                     practiceNames: [],
-                     practiceURLs: [],
-                     linksNames: [],
-                     linksURLs: []
-                 },
-                 {
-                     name: 'From here, attend regular CS18 lectures',
-                     date: '02/03',
-                     noteNames: [],
-                     noteURLs: [
+                    ],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
+                {
+                    name: 'From here, attend regular CS18 lectures',
+                    date: '02/03',
+                    noteNames: [],
+                    noteURLs: [
 
-                     ],
-                     recordingNames: [],
-                     recordingURLs: [],
-                     practiceNames: [],
-                     practiceURLs: [],
-                     linksNames: [],
-                     linksURLs: []
-                 },
-                 
+                    ],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
+
             ],
             now: moment(),
             tableheads: [
