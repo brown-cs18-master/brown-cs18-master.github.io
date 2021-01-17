@@ -169,8 +169,8 @@ Vue.component('page-content', {
                         personalPhotoURL: 'content/staff/evan-blurb.JPG',
                         themePhotoURL: 'content/staff/Evan-Velasquez-evelasq2.JPG',
                         theme: '',
-                        pronouns: '',
-                        hometown: '',
+                        pronouns: 'he/him',
+                        hometown: 'Lexington, VA',
                     },
                     {
                         cslogin: 'ngoodson',
@@ -209,6 +209,15 @@ Vue.component('page-content', {
                         theme: '',
                         pronouns: 'he/him',
                         hometown: 'Millwood, NY'
+                    },
+                    {
+                        cslogin: 'yguo62',
+                        name: 'Alex Guo',
+                        personalPhotoURL: 'content/staff/alex-blurb.png',
+                        themePhotoURL: 'content/staff/default.png',
+                        theme: '',
+                        pronouns: 'he/him',
+                        hometown: 'Buffalo Grove, IL'
                     },
                     {
                         cslogin: 'acimack',
@@ -310,6 +319,15 @@ Vue.component('page-content', {
                         hometown: 'LA'
                     },
                     {
+                        cslogin: 'qhan3',
+                        name: 'Joe Han',
+                        personalPhotoURL: 'content/staff/joe-blurb.png',
+                        themePhotoURL: 'content/staff/joe-han.jpg',
+                        theme: '',
+                        pronouns: 'he/him/his',
+                        hometown: 'Madison, MS'
+                    },
+                    {
                         cslogin: 'ldo6',
                         name: 'Long Do',
                         personalPhotoURL: 'content/staff/long-blurb.png',
@@ -355,15 +373,6 @@ Vue.component('page-content', {
                         hometown: 'East Greenwich, Rhode Island'
                     },
                     {
-                        cslogin: 'qhan3',
-                        name: 'Joe Han',
-                        personalPhotoURL: 'content/staff/joe-blurb.png',
-                        themePhotoURL: 'content/staff/joe-han.jpg',
-                        theme: '',
-                        pronouns: 'he/him/his',
-                        hometown: 'Madison, MS'
-                    },
-                    {
                         cslogin: 'rbush',
                         name: 'Robert Bush',
                         personalPhotoURL: 'content/staff/robert-blurb.png',
@@ -380,15 +389,6 @@ Vue.component('page-content', {
                         theme: '',
                         pronouns: 'he/him/his',
                         hometown: 'Cranston, RI'
-                    },
-                    {
-                        cslogin: 'yguo62',
-                        name: 'Alex Guo',
-                        personalPhotoURL: 'content/staff/alex-blurb.png',
-                        themePhotoURL: 'content/staff/default.png',
-                        theme: '',
-                        pronouns: 'he/him',
-                        hometown: 'Buffalo Grove, IL'
                     },
                     {
                         cslogin: 'zzhu42',
