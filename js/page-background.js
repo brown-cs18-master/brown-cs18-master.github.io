@@ -20,7 +20,7 @@ const pageBackground = {
     template: `
         <div
           id="page-background"
-          class="container-fluid h-75"
+          class="container-fluid h-50"
           style="
             background-image: ;
             background-position: center;
@@ -36,7 +36,7 @@ const pageBackground = {
                   class="img-fluid"
                   style="
                     position: absolute;
-                    top: 37.5%;
+                    top: 32%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                   "

@@ -1,5 +1,6 @@
 import pageClickCopy from "./page-click-copy.js";
 import pageSectionTitle from "./page-section.js";
+import pageLink from './page-link.js';
 
 const csPrereq = {
   props: {
@@ -65,7 +66,7 @@ const courseInfoSection = {
                     succeeded in the past!).
                     <br/>
                      <br style="font-size: 0.75rem"/>
-                    If you are coming from CS15, see this page for your alternative materials for the first week and a half of the course.
+                    If you are coming from CS15, see this page [TODO: LINK] for your alternative materials for the first week and a half of the course.
                 </span>
           </div>
           </div>
@@ -142,6 +143,41 @@ const courseInfoSection = {
                             </div>
                         </div>
                   </div>
+            </div>
+        </section>
+    `,
+};
+
+const essentialLinksSection = {
+  props: {
+    curPageThemeColor: String,
+    curPageIconClasses: Array,
+  },
+  components: {
+    'page-link': pageLink,
+    'page-section-title': pageSectionTitle,
+  },
+  template: `
+        <section class="container-fluid d-flex flex-wrap flex-row my-5 px-0 px-sm-5">
+            <page-section-title
+              :icon-classes="curPageIconClasses"
+              text="essential links"
+              :style-object="{'color': curPageThemeColor, 'text-decoration-line': 'underline', 'text-decoration-style': 'wavy'}"
+            ></page-section-title>            <div
+              class="mx-4 mx-sm-5 px-0 px-lg-5 flex-fill d-flex flex-column"
+              :style="{ color: curPageThemeColor, 'font-size': 'larger' }"
+            >
+                <ul>
+                    <li><page-link title="piazza" href="" text="Ask questions on Piazza [TODO: Create Piazza and link]"></page-link></li>
+                    <li><page-link title="zoom link" href="https://canvas.brown.edu/courses/1083823/external_tools/35522" text="Zoom link"></page-link></li>
+                    <li><page-link title="admin questions" href="mailto:cs0180headtas@lists.brown.edu" text="Raise administrative/HTA questions via email"></page-link></li>
+                    <li><page-link title="ta hours" href="https://brown-cs18-master.github.io/hours.html" text="Find TA/Professor Hours on the Course Calendar"></page-link></li>
+                    <li><page-link title="signmeup" href="https://signmeup.cs.brown.edu/" text="Enter the office hours line on SignMeUp"></page-link></li>
+                    <li><page-link title="gradescope" href="https://www.gradescope.com/courses/224988" text="Submit Homework on Gradescope"></page-link></li>
+                    <li><page-link title="lab switch" href="https://docs.google.com/forms/d/e/1FAIpQLSdIZ53brbaNhcA9EnhaX3_rM8rjAFwT7ae4AmzhInaLEJi-4w/viewform?usp=sf_link" text="Request a one-time lab switch by filling out the lab-switch form"></page-link></li>
+                    <li><page-link title="extension request" href="mailto:kathryn_fisler@brown.edu" text="Contact Professor Fisler/Kathi regarding emergencies, personal situations, or extensions"></page-link></li>
+                    <li><page-link title="late day" href="" text="Refer to the course missive for the late day policy [TODO: link course missive]."></page-link></li>
+                </ul>
             </div>
         </section>
     `,
@@ -232,8 +268,65 @@ const learningObjectives = {
   },
   template: `
         <div id="topics-container">
+          <div id="course-description-container" class="mb-4" style="font-size: 1.1rem; margin-left: 0">
+              <span class="mr-4" :style="{ color: curPageThemeColor }">
+                  Our learning objectives page summarizes the core skills and knowledge that the course 
+                  is designed to help you master. As we grade your work, we will give you feedback on your 
+                  progress towards these objectives. Use this list as a guide to help you remember the big
+                    picture of each assignment.
+                  <br/>
+              </span>
+          </div>
+
             <p class="badge text-white text-uppercase px-4" :style="{'background-color': curPageThemeColor}">
                 objectives
+            </p>
+            <ul
+              id="topics-list"
+              class="list-group list-group-flush ml-4 ml-sm-5"
+              style="border-left: solid 0.2rem"
+            >
+                <course-topic
+                  v-for="(topic, index) of topics"
+                  :week="topic[0]"
+                  :name="topic[1]"
+                  :key="index"
+                  :cur-page-theme-color="curPageThemeColor"
+                >
+                </course-topic>
+            </ul>
+        </div>
+    `,
+};
+
+const diversityAndInclusion = {
+  props: {
+    curPageThemeColor: String,
+  },
+  components: {
+    "course-topic": courseTopic,
+  },
+  data: function () {
+    return {
+      topics: [
+        ["1", "All students feel supported in learning CS, regardless of prior experience with object-oriented programming, culture, abilities, or learning situation under COVID."],
+        ["2", "All students are treated with respect."],
+        ["3", "Course materials reflect and are sensitive to the diversity within our student population."],
+      ],
+    };
+  },
+  template: `
+        <div id="topics-container">
+          <div id="course-description-container" class="mb-4" style="font-size: 1.1rem; margin-left: 0">
+              <span class="mr-4" :style="{ color: curPageThemeColor }">
+                  CS18 also has concrete goals regarding diversity and inclusion. If you feel like we aren't meeting these goals, or
+                  have suggestions for us, please <a href="mailto:cs0180headtas@lists.brown.edu">let us know</a>.
+                  <br/>
+              </span>
+          </div>
+
+            <p class="badge text-white text-uppercase px-4" :style="{'background-color': curPageThemeColor}">
+                goals
             </p>
             <ul
               id="topics-list"
@@ -276,7 +369,8 @@ const courseMaterialSection = {
                 <course-topics
                   :cur-page-theme-color="curPageThemeColor"
                 >
-                </course-topics>
+                </course-topics>   
+
             </div>
         </section>
     `,
@@ -295,7 +389,36 @@ const learningObjectivesSection = {
         <section class="container-fluid d-flex flex-wrap flex-row my-5 px-0 px-sm-5">
             <page-section-title
               :icon-classes="curPageIconClasses"
-              text="learning objectives"
+              text="course objectives"
+              :style-object="{'color': curPageThemeColor, 'text-decoration-line': 'underline', 'text-decoration-style': 'wavy'}"
+            ></page-section-title>
+            <div
+              class="flex-fill d-flex flex-column ml-4 ml-sm-5"
+              :style="{ color: curPageThemeColor, 'font-size': 'larger' }"
+            >
+                <course-topics
+                  :cur-page-theme-color="curPageThemeColor"
+                >
+                </course-topics>
+            </div>
+        </section>
+    `,
+};
+
+const diversityAndInclusionSection = {
+  props: {
+    curPageThemeColor: String,
+    curPageIconClasses: Array,
+  },
+  components: {
+    "course-topics": diversityAndInclusion,
+    "page-section-title": pageSectionTitle,
+  },
+  template: `
+        <section class="container-fluid d-flex flex-wrap flex-row my-5 px-0 px-sm-5">
+            <page-section-title
+              :icon-classes="curPageIconClasses"
+              text="diversity and inclusion"
               :style-object="{'color': curPageThemeColor, 'text-decoration-line': 'underline', 'text-decoration-style': 'wavy'}"
             ></page-section-title>
             <div
@@ -318,8 +441,9 @@ Vue.component("page-content", {
   },
   components: {
     "course-info-section": courseInfoSection,
-    "course-material-section": courseMaterialSection,
+    "essential-links-section": essentialLinksSection,
     "learning-objectives-section": learningObjectivesSection,
+    "diversity-inclusion-section": diversityAndInclusionSection
   },
   template: `
         <main>
@@ -328,16 +452,22 @@ Vue.component("page-content", {
                 :cur-page-icon-classes="curPageIconClasses"
             >
             </course-info-section>
-            <course-material-section
+            <essential-links-section
                 :cur-page-theme-color="curPageThemeColor"
                 :cur-page-icon-classes="curPageIconClasses"
             >
-            </course-material-section>
+            </essential-links-section>   
             <learning-objectives-section
                 :cur-page-theme-color="curPageThemeColor"
                 :cur-page-icon-classes="curPageIconClasses"
             >
-            </learning-objectives-section> 
+            </learning-objectives-section>  
+            <diversity-inclusion-section
+                :cur-page-theme-color="curPageThemeColor"
+                :cur-page-icon-classes="curPageIconClasses"
+            >
+            </diversity-inclusion-section>  
+
         </main>
     `,
 });

@@ -24,10 +24,11 @@ const courseDocumentsSection = {
         'page-section-title': pageSectionTitle,
     },
     template: `
+
         <section class="container-fluid d-flex flex-wrap flex-row my-5 px-0 px-sm-5">
             <page-section-title
               :icon-classes="curPageIconClasses"
-              text="course documents"
+              text="course missive"
               :style-object="{'color': curPageThemeColor}"
               :text-style-object="{'border-bottom': 'solid thick'}"
             ></page-section-title>
@@ -35,39 +36,16 @@ const courseDocumentsSection = {
               class="mx-4 mx-sm-5 px-0 px-lg-5 flex-fill d-flex flex-column"
               :style="{ color: curPageThemeColor, 'font-size': 'larger' }"
             >
-                <p>
-                    <page-link title="course missive" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/missive.html" text="Course Missive"></page-link>
-                </p>
-                <p>
-                    <page-link title="collaboration policy" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/collaboration.html" text="Collaboration Policy"></page-link>
-                </p>
-                <p>
-                    <page-link title="pair programming guide" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/pair-programming.html" text="Pair Programming Guide"></page-link>
-                </p>
-                <p>
-                    <page-link title="ta hours guide" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/hours-policy.html" text="TA Hours Guide"></page-link>
-                </p>
-                <p>
-                    <page-link title="piazza" href="" text="Piazza [TODO: Link]"></page-link>
-                </p>
-                <p>
-                    <page-link title="good coding practices" href="https://cs.brown.edu/courses/csci0180/content/docs-spec/java-gcp.pdf" text="Good Coding Practices"></page-link>
-                </p>
-                <p>
-                    <page-link title="java style guide" href="https://cs.brown.edu/courses/csci0180/content/docs-spec/java-style.pdf" text="Java Style Guide"></page-link>
-                </p>
-                <p>
-                    <page-link title="additional scala good coding practices" href="https://cs.brown.edu/courses/csci0180/content/docs-spec/scala-gcp.pdf" text="Additional Scala Good Coding Practices"></page-link>
-                </p>
-                <p>
-                    <page-link title="scala style guide" href="https://cs.brown.edu/courses/csci0180/content/docs-spec/scala-style.pdf" text="Scala Style Guide"></page-link>
-                </p>
+                <p>Refer to the missive for information about course learning goals, late day policies, and more.</p>
+                <ul>
+                    <li><page-link title="course missive" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/missive.html" text="Course Missive"></page-link></li>
+                </ul>
             </div>
         </section>
     `,
 };
 
-const helpfulLinksSection = {
+const softwareSetupSection = {
     props: {
         curPageThemeColor: String,
         curPageIconClasses: Array,
@@ -81,7 +59,7 @@ const helpfulLinksSection = {
         <section class="container-fluid d-flex flex-wrap flex-row my-5 px-0 px-sm-5">
             <page-section-title
               :icon-classes="curPageIconClasses"
-              text="helpful links"
+              text="software installation and setup"
               :style-object="{'color': curPageThemeColor}"
               :text-style-object="{'border-bottom': 'solid thick'}"
             ></page-section-title>
@@ -89,63 +67,11 @@ const helpfulLinksSection = {
               class="mx-4 mx-sm-5 px-0 px-lg-5 flex-fill d-flex flex-column"
               :style="{ color: curPageThemeColor, 'font-size': 'larger' }"
             >
-                <p>
-                    <page-link title="debugging guide" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/missive.html" text="Debugging Guide"></page-link>
-                </p>
-                <p>
-                    <page-link title="lab switch guide" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/labswitches.pdf" text="Lab Switch Guide"></page-link>
-                </p>
-                <p>
-                    <page-link title="javadocs" href="http://docs.oracle.com/javase/8/docs/api/" text="Javadocs"></page-link>
-                </p>
-                <p>
-                    <page-link title="regex guide" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/Regex.pdf" text="Regex Guide"></page-link>
-                </p>
-                <p>
-                    <page-link title="tester documentation" href="http://www.ccs.neu.edu/javalib/Tester/index.html" text="Tester Documentation"></page-link>
-                </p>
-                <p>
-                    <page-link title="scaladocs" href="http://www.scala-lang.org/api/current/index.html" text="Scaladocs"></page-link>
-                </p>
-            </div>
-        </section>
-    `,
-};
-
-const workingFromHomeSection = {
-    props: {
-        curPageThemeColor: String,
-        curPageIconClasses: Array,
-    },
-    components: {
-        'course-resource': courseResource,
-        'page-link': pageLink,
-        'page-section-title': pageSectionTitle,
-    },
-    template: `
-        <section class="container-fluid d-flex flex-wrap flex-row my-5 px-0 px-sm-5">
-            <page-section-title
-              :icon-classes="curPageIconClasses"
-              text="working from home"
-              :style-object="{'color': curPageThemeColor}"
-              :text-style-object="{'border-bottom': 'solid thick'}"
-            ></page-section-title>
-            <div
-              class="mx-4 mx-sm-5 px-0 px-lg-5 flex-fill d-flex flex-column"
-              :style="{ color: curPageThemeColor, 'font-size': 'larger' }"
-            >
-                <p>
-                    <page-link title="intellij" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/intellij_setup.html" text="Intellij Setup Guide"></page-link>
-                </p>
-                <p>
-                    <page-link title="work from home windows" href="https://cs.brown.edu/about/system/connecting/ssh/faq/windows/" text="Work From Home (Windows)"></page-link>
-                </p>
-                <p>
-                    <page-link title="work from home mac linux" href="https://cs.brown.edu/about/system/connecting/ssh/osx/" text="Work From Home (MAC OS/Linux)"></page-link>
-                </p>
-                <p>
-                    <page-link title="working with the command line" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/command_line_guide.pdf" text="Working with the Command Line"></page-link>
-                </p>
+                <p>If you need help setting up your software and environment, please come to hours! But first, consult these guides:</p>
+                <ul>
+                    <li><page-link title="intellij setup guide" href="https://hackmd.io/@cs18-spring-2021/rkqhvPyy_" text="Intellij Setup Guide"></page-link></li>
+                    <li><page-link title="di-resource-link" href="https://hackmd.io/@cs18-spring-2021/BkfI_Pky_" text="Github Guide"></page-link></li>
+                </ul>
             </div>
         </section>
     `,
@@ -183,7 +109,7 @@ const externalResourcesSection = {
             >
                 <course-resource title="Department Resources">
                     <ul>
-                        <li><page-link title="ugrad-missive-link" href="http://cs.brown.edu/courses/ta/pubs/ugrad_missive.pdf" text="Undergraduate Missive"></page-link></li>
+                        <li><page-link title="ugrad missive" href="http://cs.brown.edu/courses/ta/pubs/ugrad_missive.pdf" text="Undergraduate Missive"></page-link></li>
                         <li><page-link title="di-resource-link" href="http://cs.brown.edu/about/diversity/resources/" text="Diversity and Inclusion"></page-link></li>
                         <li><page-link title="student-di-resource-link" href="https://cs.brown.edu/about/diversity/student-advocates-diversity-and-inclusion/" text="Student Advocates for Diversity and Inclusion"></page-link></li>
                         <li><page-link title="wics-resource-link" href="https://cs.brown.edu/people/orgs/wics/" text="Women in Computer Science"></page-link></li>
@@ -194,6 +120,58 @@ const externalResourcesSection = {
                     <p>If you need accommodation for your physical and mental health, please feel free to reach out to Professor Fisler - we want to support you as much as we can in the most comfortable way for you. It is important to note that TAs should not be handling health and accomodations information, so inquiries should be directed towards the professors only.</p>
                     <ul>
                         <li>Resources for Physical/Mental Health, Accessibility and Accommodations can be found <page-link title="hw-resource-link" href="https://cs.brown.edu/media/filer_public/03/0a/030a6a2e-7a61-4c30-98c1-dce87b9d9899/brown_cs_health_and_wellness_resources.pdf" text="here"></page-link>.</li>
+                    </ul>
+                </course-resource>
+            </div>
+        </section>
+    `,
+};
+
+const codingResourcesSection = {
+    props: {
+        curPageThemeColor: String,
+        curPageIconClasses: Array,
+    },
+    components: {
+        'page-section-title': pageSectionTitle,
+        'course-resource': courseResource,
+        'page-link': pageLink,
+    },
+    template: `
+<section class="container-fluid d-flex flex-wrap flex-row my-5 px-0 px-sm-5">
+            <page-section-title
+              :icon-classes="curPageIconClasses"
+              text="coding resources"
+              :style-object="{'color': curPageThemeColor}"
+              :text-style-object="{'border-bottom': 'solid thick'}"
+            >
+            </page-section-title>
+            <div
+              class="mx-4 mx-sm-5 px-0 px-lg-5 flex-fill d-flex flex-column"
+              :style="{ color: curPageThemeColor, 'font-size': 'larger' }"
+            >
+            <p>
+                Please come to TA hours for help with conceptual and technical questions regarding assignments (except for exams). When you come to hours,
+                we expect that you have read the 
+            </p>
+                <course-resource title="Coding Help">
+                    <ul>
+                        <li><page-link title="ta hours guide" href="https://hackmd.io/@cs18-spring-2021/H1-qgOkkO" text="TA Hours Guide"></page-link></li>
+                        <li><page-link title="pair-programming" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/pair-programming.html" text="Pair Programming Guide"></page-link></li>
+                        <li><page-link title="debugging guide" href="https://hackmd.io/@cs18-spring-2021/rkkNS5kkd" text="Debugging Guide"></page-link></li>
+                        <li><page-link title="collaboration policy" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/missive.html" text="Collaboration Policy"></page-link></li>
+                    </ul>
+                </course-resource>
+                <course-resource title="Coding Guidelines">
+                    <ul>
+                        <li><page-link title="java style guide" href="https://cs.brown.edu/courses/csci0180/content/docs-spec/java-style.pdf" text="Java Style Guide"></page-link></li>
+                        <li><page-link title="good coding practices" href="https://cs.brown.edu/courses/csci0180/content/docs-spec/java-gcp.pdf" text="Good Coding Practices"></page-link></li>
+                        <li><page-link title="scala style guide" href="https://cs.brown.edu/courses/csci0180/content/docs-spec/scala-style.pdf" text="Scala Style Guide"></page-link></li>
+                        <li><page-link title="additional scala good coding practices" href="https://cs.brown.edu/courses/csci0180/content/docs-spec/scala-gcp.pdf" text="Additional Scala Good Coding Practices"></page-link></li>
+                        <li><page-link title="javadocs" href="http://docs.oracle.com/javase/8/docs/api/" text="Javadocs"></page-link></li>
+                        <li><page-link title="scaladocs" href="http://www.scala-lang.org/api/current/index.html" text="Scaladocs"></page-link></li>
+                        <li><page-link title="regex guide" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/Regex.pdf" text="Regex Guide"></page-link></li>
+                        <li><page-link title="tester documentation" href="http://www.ccs.neu.edu/javalib/Tester/index.html" text="Tester Documentation"></page-link></li>
                     </ul>
                 </course-resource>
             </div>
@@ -241,8 +219,8 @@ Vue.component('page-content', {
     components: {
         'course-documents-section': courseDocumentsSection,
         'external-resources-section': externalResourcesSection,
-        'helpful-links-section': helpfulLinksSection,
-        'working-from-home-section': workingFromHomeSection,
+        'coding-resources-section': codingResourcesSection,
+        'software-setup-section': softwareSetupSection,
         'other-section': otherSection,
     },
     mounted: function () {
@@ -263,16 +241,16 @@ Vue.component('page-content', {
                 :cur-page-icon-classes="curPageIconClasses"
             >
             </course-documents-section>
-            <helpful-links-section
+            <software-setup-section
                 :cur-page-theme-color="curPageThemeColor"
                 :cur-page-icon-classes="curPageIconClasses"
             >
-            </helpful-links-section>
-            <working-from-home-section
+            </software-setup-section>      
+            <coding-resources-section
                 :cur-page-theme-color="curPageThemeColor"
                 :cur-page-icon-classes="curPageIconClasses"
             >
-            </working-from-home-section>            
+            </coding-resources-section>
             <external-resources-section
                 :cur-page-theme-color="curPageThemeColor"
                 :cur-page-icon-classes="curPageIconClasses"

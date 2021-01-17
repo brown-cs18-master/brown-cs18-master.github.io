@@ -146,37 +146,40 @@ Vue.component('page-content', {
                     {
                         cslogin: 'kfisler',
                         name: 'Kathi Fisler',
-                        personalPhotoURL: '',
-                        themePhotoURL: '',
+                        personalPhotoURL: 'content/staff/kathi-blurb.png',
+                        themePhotoURL: 'content/staff/default.png',
                         theme: '',
-                        pronouns: '',
-                        hometown: '',
+                        pronouns: 'she/her/hers',
+                        hometown: 'Staten Island, NY',
                     },
                 ],
                 [
                     {
                         cslogin: 'yzhuang6',
                         name: 'Carrie Zhuang',
-                        personalPhotoURL: '',
-                        themePhotoURL: '',
+                        personalPhotoURL: 'content/staff/carrie-blurb.png',
+                        themePhotoURL: 'content/staff/default.png',
+                        theme: '',
+                        pronouns: 'she/her/hers',
+                        hometown: 'Shanghai',
+                    },
+                    {
+                        cslogin: 'evelasq2',
+                        name: 'Evan Velasquez',
+                        personalPhotoURL: 'content/staff/evan-blurb.JPG',
+                        themePhotoURL: 'content/staff/Evan-Velasquez-evelasq2.JPG',
                         theme: '',
                         pronouns: '',
                         hometown: '',
                     },
                     {
-                        cslogin: 'evelasq2',
-                        name: 'Evan Velasquez',
-                        personalPhotoURL: 'content/staff/Evan-Velasquez-evelasq2.JPG',
-                        themePhotoURL: 'content/staff/Evan-Velasquez-utensil.jpg',
-                        theme: '',
-                    },
-                    {
                         cslogin: 'ngoodson',
                         name: 'Nastassia Goodson',
-                        personalPhotoURL: '',
-                        themePhotoURL: '',
+                        personalPhotoURL: 'content/staff/nastassia-blurb.png',
+                        themePhotoURL: 'content/staff/nastassia-goodson.png',
                         theme: '',
-                        pronouns: ''
+                        pronouns: 'she/her/hers',
+                        hometown: 'Portland, OR',
                     },
                     {
                         cslogin: 'pdam',
@@ -189,10 +192,242 @@ Vue.component('page-content', {
                     },
                 ],
                 [
-
+                    {
+                        cslogin: 'achang57',
+                        name: 'Adrian Chang',
+                        personalPhotoURL: 'content/staff/adrian-blurb.png',
+                        themePhotoURL: 'content/staff/adrian-chang.jpg',
+                        theme: '',
+                        pronouns: 'he/him/his',
+                        hometown: 'Carlsbad, CA'
+                    },
+                    {
+                        cslogin: 'agu10',
+                        name: 'Alan Gu',
+                        personalPhotoURL: 'content/staff/alan-blurb.png',
+                        themePhotoURL: 'content/staff/alan-gu.jpg',
+                        theme: '',
+                        pronouns: 'he/him',
+                        hometown: 'Millwood, NY'
+                    },
+                    {
+                        cslogin: 'acimack',
+                        name: 'Annie Cimack',
+                        personalPhotoURL: 'content/staff/annie-blurb.png',
+                        themePhotoURL: 'content/staff/annie-cimack.jpg',
+                        theme: '',
+                        pronouns: 'she/her/hers',
+                        hometown: 'Mt. Prospect, IL'
+                    },
+                    {
+                        cslogin: 'achang65',
+                        name: '',
+                        personalPhotoURL: 'content/staff/default.png',
+                        themePhotoURL: 'content/staff/default.png',
+                        theme: '',
+                        pronouns: '',
+                        hometown: ''
+                    },
+                    {
+                        cslogin: 'cohwille',
+                        name: 'Clark Oh-Willeke',
+                        personalPhotoURL: 'content/staff/clark-blurb.png',
+                        themePhotoURL: 'content/staff/default.png',
+                        theme: '',
+                        pronouns: 'he/him',
+                        hometown: 'Denver, CO'
+                    },
+                    {
+                        cslogin: 'elerena',
+                        name: 'Erick Lerena',
+                        personalPhotoURL: 'content/staff/erick-blurb.png',
+                        themePhotoURL: 'content/staff/default.png',
+                        theme: '',
+                        pronouns: 'he/him/his',
+                        hometown: 'Boyle Heights'
+                    },
+                    {
+                        cslogin: 'emullen2',
+                        name: 'Ethan Mullen',
+                        personalPhotoURL: 'content/staff/ethan-blurb.png',
+                        themePhotoURL: 'content/staff/ethan-mullen.jpg',
+                        theme: '',
+                        pronouns: 'he/him/his',
+                        hometown: 'Atlanta'
+                    },
+                    {
+                        cslogin: 'fkierzen',
+                        name: 'Filip Kierzenka',
+                        personalPhotoURL: 'content/staff/filip-blurb.png',
+                        themePhotoURL: 'content/staff/filip-kierzenka.jpeg',
+                        theme: '',
+                        pronouns: 'he/him/his',
+                        hometown: 'Framingham, MA'
+                    },
+                    {
+                        cslogin: 'glee73',
+                        name: 'Grace Lee',
+                        personalPhotoURL: 'content/staff/grace-blurb.png',
+                        themePhotoURL: 'content/staff/grace-lee.jpg',
+                        theme: '',
+                        pronouns: 'she/her',
+                        hometown: 'Dallas, TX'
+                    },
+                    {
+                        cslogin: 'hvenkata',
+                        name: 'Harshini Venkatachalam',
+                        personalPhotoURL: 'content/staff/harshini-blurb.png',
+                        themePhotoURL: 'content/staff/harshini-venkatachalam.jpg',
+                        theme: '',
+                        pronouns: 'she/her',
+                        hometown: 'Tempe, Arizona'
+                    },
+                    {
+                        cslogin: 'hzonnenb',
+                        name: 'Hunter Zonnenberg',
+                        personalPhotoURL: 'content/staff/hunter-blurb.png',
+                        themePhotoURL: 'content/staff/hunter-zonnenberg.jpeg',
+                        theme: '',
+                        pronouns: 'he/him',
+                        hometown: 'Marblehead, MA'
+                    },
+                    {
+                        cslogin: 'ihiltonv',
+                        name: 'Isaac Hilton-VanOsdall',
+                        personalPhotoURL: 'content/staff/isaac-blurb.png',
+                        themePhotoURL: 'content/staff/isaac-hilton-vanosdall.jpeg',
+                        theme: '',
+                        pronouns: 'he/him/his',
+                        hometown: 'Barre, VT'
+                    },
+                    {
+                        cslogin: 'jriley5',
+                        name: 'Jack Riley',
+                        personalPhotoURL: 'content/staff/jack-blurb.png',
+                        themePhotoURL: 'content/staff/jack-riley.jpeg',
+                        theme: '',
+                        pronouns: 'he/him',
+                        hometown: 'LA'
+                    },
+                    {
+                        cslogin: 'ldo6',
+                        name: 'Long Do',
+                        personalPhotoURL: 'content/staff/long-blurb.png',
+                        themePhotoURL: 'content/staff/default.png',
+                        theme: '',
+                        pronouns: 'him/his',
+                        hometown: 'Hanoi, Vietnam'
+                    },
+                    {
+                        cslogin: 'mthain',
+                        name: 'Morgann Thain',
+                        personalPhotoURL: 'content/staff/morgann-blurb.png',
+                        themePhotoURL: 'content/staff/morgann-thain.jpg',
+                        theme: '',
+                        pronouns: 'he/his',
+                        hometown: 'Abington/Philly'
+                    },
+                    {
+                        cslogin: 'ncancell',
+                        name: 'Nick Cancellaro',
+                        personalPhotoURL: 'content/staff/nick-blurb.png',
+                        themePhotoURL: 'content/staff/nick-cancellaro.jpeg',
+                        theme: '',
+                        pronouns: 'he/him',
+                        hometown: 'Hebron, Connecticut'
+                    },
+                    {
+                        cslogin: 'pmontei1',
+                        name: '',
+                        personalPhotoURL: 'content/staff/default.png',
+                        themePhotoURL: 'content/staff/default.png',
+                        theme: '',
+                        pronouns: '',
+                        hometown: ''
+                    },
+                    {
+                        cslogin: 'pzubiago',
+                        name: 'Peter Zubiago',
+                        personalPhotoURL: 'content/staff/peter-blurb.png',
+                        themePhotoURL: 'content/staff/peter-zubiago.png',
+                        theme: '',
+                        pronouns: 'he/him/his',
+                        hometown: 'East Greenwich, Rhode Island'
+                    },
+                    {
+                        cslogin: 'qhan3',
+                        name: 'Joe Han',
+                        personalPhotoURL: 'content/staff/joe-blurb.png',
+                        themePhotoURL: 'content/staff/joe-han.jpg',
+                        theme: '',
+                        pronouns: 'he/him/his',
+                        hometown: 'East Greenwich, Rhode Island'
+                    },
+                    {
+                        cslogin: 'rbush',
+                        name: 'Robert Bush',
+                        personalPhotoURL: 'content/staff/robert-blurb.png',
+                        themePhotoURL: 'content/staff/robert-bush.jpg',
+                        theme: '',
+                        pronouns: 'he/him/his',
+                        hometown: 'West Bloomfield, Michigan'
+                    },
+                    {
+                        cslogin: 'vpondtor',
+                        name: 'Virak Pond-Tor',
+                        personalPhotoURL: 'content/staff/virak-blurb.png',
+                        themePhotoURL: 'content/staff/virak-pond-tor.jpg',
+                        theme: '',
+                        pronouns: 'he/him/his',
+                        hometown: 'Cranston, RI'
+                    },
+                    {
+                        cslogin: 'yguo62',
+                        name: 'Alex Guo',
+                        personalPhotoURL: 'content/staff/alex-blurb.png',
+                        themePhotoURL: 'content/staff/default.png',
+                        theme: '',
+                        pronouns: 'he/him',
+                        hometown: 'Buffalo Grove, IL'
+                    },
+                    {
+                        cslogin: 'zzhu42',
+                        name: 'Zachary Zhu',
+                        personalPhotoURL: 'content/staff/zach-blurb.png',
+                        themePhotoURL: 'content/staff/default.png',
+                        theme: '',
+                        pronouns: 'he/him/his',
+                        hometown: 'Weston, MA'
+                    },
+                    {
+                        cslogin: 'zzhou65',
+                        name: '',
+                        personalPhotoURL: 'content/staff/default.png',
+                        themePhotoURL: 'content/staff/default.png',
+                        theme: '',
+                        pronouns: '',
+                        hometown: ''
+                    },
                 ],
                 [
-
+                    {
+                        cslogin: 'gdahl',
+                        name: '',
+                        personalPhotoURL: 'content/staff/default.png',
+                        themePhotoURL: 'content/staff/default.png',
+                        theme: '',
+                        pronouns: '',
+                        hometown: ''
+                    },
+                    {
+                        cslogin: 'skothar7',
+                        name: '',
+                        personalPhotoURL: 'content/staff/default.png',
+                        themePhotoURL: 'content/staff/default.png',
+                        theme: '',
+                        pronouns: '',
+                        hometown: ''
+                    },
                 ],
             ],
         };

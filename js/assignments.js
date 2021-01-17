@@ -572,7 +572,7 @@ Vue.component('page-content', {
                   :style="{ color: curPageThemeColor}"
                 >
                     <p>
-                        Homeworks are due on the Due Date at Anywhere-On-Earth time. They can be submitted on Gradescope [TODO: Link here].
+                        Homeworks are due on the Due Date at Anywhere-On-Earth time. They can be submitted through <a href="https://www.gradescope.com/courses/224988">Gradescope</a>.
                     </p>
                     <page-table
                       :tableheads="tableheads"
@@ -601,7 +601,7 @@ Vue.component('page-content', {
                   :style="{ color: curPageThemeColor}"
                 >
                     <p>
-                        There are 12 labs. Labs are synchronized and held virtually. See the calendar for a list of lab times. If you need to reschedule your lab time, please see the course missive.
+                        There are 12 labs. Labs are synchronized and held virtually. See <a href="https://brown-cs18-master.github.io/hours.html">the calendar</a> for a list of lab times. If you need to reschedule your lab time, please see the course missive.
                     </p>
                     <page-table
                       :tableheads="labsTableheads"
@@ -629,7 +629,7 @@ Vue.component('page-content', {
                   class="mx-4 mx-sm-5 px-0 px-lg-5"
                   :style="{ color: curPageThemeColor}"
                 >
-                    <p>There will be two projects (and one mini-project) this semester. Projects are submitted through gradescope [TODO: link gradescope here]</p>
+                    <p>There will be two projects (and one mini-project) this semester. Projects are due on the due date at Anywhere-On-Earth time, and are submitted through <a href="https://www.gradescope.com/courses/224988"><b>Gradescope</b></a>.</p>
                     <page-table
                       :tableheads="tableheads"
                       tableheadBackground="rgba(111, 82, 142, 0.2)"
@@ -656,7 +656,7 @@ Vue.component('page-content', {
                   class="mx-4 mx-sm-5 px-0 px-lg-5"
                   :style="{ color: curPageThemeColor}"
                 >
-                    <p>[TODO: A blurb about exams.]</p>
+                    <p>Please see the course missive regarding exam policies [TODO: link].</p>
                     <page-table
                       :tableheads="tableheads"
                       tableheadBackground="rgba(111, 82, 142, 0.2)"

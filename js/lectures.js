@@ -682,7 +682,7 @@ Vue.component('page-content', {
                 <div
                   class="mx-4 mx-sm-5 mb-4 mb-sm-5"
                   :style="{ color: curPageThemeColor}">
-                    <p>Lectures are on Monday, Wednesday, and Friday from 11:00 to 11:50AM EST. The Zoom link for lectures can be found on the <a href="https://canvas.brown.edu">course Canvas</a>.</p>
+                    <p>Lectures are on Monday, Wednesday, and Friday from 11:00 to 11:50AM EST. The Zoom link for lectures can be found on the <a href="https://canvas.brown.edu"><b>course Canvas<b/></a>.</p>
                 </div>
                 <div
                   class="mx-4 mx-sm-5 px-0 px-lg-5"
