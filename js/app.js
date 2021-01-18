@@ -7,17 +7,25 @@ new Vue({
     data: {
         pageThemeColors: [
             '#266079' /* しるべのクジラ */,
-            '#266079'/*  */,
+            '#266079' /*  */,
             '#266079' /* 始発とカフカ */,
             '#266079' /* palette */,
             '#266079' /* DAYBREAK FRONTLINE */,
-            '#266079'/* サンセットバスストップ */,
-            '#266079' /* 渚 */
+            '#266079' /* サンセットバスストップ */,
+            '#266079' /* 渚 */,
         ],
         navbarBackgroundColor: 'white',
         // navbarBackgroundColor: 'white',
-        tabTexts: ['home', 'lectures', 'assignments', 'hours', 'staff', 'resources'],
-        pageFilepaths: ['index.html', 'lectures.html', 'assignments.html', 'hours.html', 'staff.html', 'resources.html'],
+        tabTexts: ['Home', 'Lectures', 'Assignments', 'Hours', 'Staff', 'Resources', 'Coming from CS15'],
+        pageFilepaths: [
+            'index.html',
+            'lectures.html',
+            'assignments.html',
+            'hours.html',
+            'staff.html',
+            'resources.html',
+            'coming-from-15.html',
+        ],
         // busClasses: ['fas', 'fa-lg', 'fa-bus'],
         // planeClasses: ['fas', 'fa-lg', 'fa-plane'],
         // trainClasses: ['fas', 'fa-lg', 'fa-train'],
@@ -42,9 +50,10 @@ new Vue({
     },
     computed: {
         currentTabText: function () {
-            return document.title.substring(7).toLowerCase();
+            return document.title.substring(7);
         },
         tabnum: function () {
+            console.log(this.currentTabText + ' ' + this.tabTexts.indexOf(this.currentTabText));
             return this.tabTexts.indexOf(this.currentTabText);
         },
         curPageThemeColor: function () {
@@ -61,7 +70,7 @@ new Vue({
                 this.planeClasses,
                 this.shuttleVanClasses,
                 this.tramClasses,
-                this.bicycleClasses
+                this.bicycleClasses,
             ];
         },
     },
