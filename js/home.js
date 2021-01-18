@@ -177,7 +177,7 @@ const essentialLinksSection = {
                     <li><page-link title="gradescope" href="https://www.gradescope.com/courses/224988" text="Submit Homework on Gradescope"></page-link></li>
                     <li><page-link title="lab switch" href="https://docs.google.com/forms/d/e/1FAIpQLSdIZ53brbaNhcA9EnhaX3_rM8rjAFwT7ae4AmzhInaLEJi-4w/viewform?usp=sf_link" text="Request a one-time lab switch by filling out the lab-switch form"></page-link></li>
                     <li><page-link title="extension request" href="mailto:kathryn_fisler@brown.edu" text="Contact Professor Fisler/Kathi regarding emergencies, personal situations, or extensions"></page-link></li>
-                    <li><page-link title="late day" href="" text="Refer to the course missive for the late day policy [TODO: link course missive]."></page-link></li>
+                    <li><page-link title="late day" href="https://hackmd.io/@cs18-spring-2021/r1GSAemJd" text="Refer to the course missive for the late day policy."></page-link></li>
                 </ul>
             </div>
         </section>
