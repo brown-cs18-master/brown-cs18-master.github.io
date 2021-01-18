@@ -8,6 +8,7 @@ const staffCard = {
         note: String,
         pronouns: String,
         hometown: String,
+        blurb: String,
         personalPhotoURL: {
             type: String,
             default: 'content/staff/default.png',
@@ -57,6 +58,7 @@ const staffCard = {
           :id="id"
           class="card text-center m-4"
           :style="{'border-color': curPageThemeColor}"
+          style="max-width:302px"
           @mouseenter.passive="showPersonalPhoto = true"
           @click.passive="showPersonalPhoto = !showPersonalPhoto"
           @mouseleave.passive="showPersonalPhoto = false"
@@ -67,11 +69,13 @@ const staffCard = {
             >
                 {{ theme }}
             </div>
-            <div
-                class="card-img-top"
-                :style="[{'background-image': photoURL}, photoStyle]"
-                style="background-size: cover; background-repeat: no-repeat; width: 300px; height: 300px;"
-            >
+            <div style="width:300px">
+                <img
+                    :src="themePhotoURL"
+                    class="card-img-top"
+                    style="display: block; width: 100%; height: auto;"
+                    :alt="name"
+                >
             </div>
             <div class="card-body d-flex flex-column justify-content-center">
                 <h5 class="card-title mb-0">
@@ -89,6 +93,10 @@ const staffCard = {
                 <p class="card-text mb-0">
                     {{hometown}}
                 </p>
+                </br>
+                <p class="card-text mb-0">
+                    {{blurb}}
+                </p>                
             </div>
         </div>
     `,
@@ -151,6 +159,7 @@ Vue.component('page-content', {
                         theme: '',
                         pronouns: 'she/her/hers',
                         hometown: 'Staten Island, NY',
+                        blurb: 'I\'ve been teaching CS for 25 years, after a rocky start in my own CS classes. I love jigsaw puzzles, puns, and cooking(and eating!) vegetarian food from around the world. Ice cream is best with rainbow sprinkles.'
                     },
                 ],
                 [
@@ -162,6 +171,7 @@ Vue.component('page-content', {
                         theme: '',
                         pronouns: 'she/her/hers',
                         hometown: 'Shanghai',
+                        blurb: 'Hi! I\'m a senior studying apma-cs. I started playing guitar since quarantine and have been obsessed with animal crossing lately!'
                     },
                     {
                         cslogin: 'evelasq2',
@@ -171,15 +181,17 @@ Vue.component('page-content', {
                         theme: '',
                         pronouns: 'he/him',
                         hometown: 'Lexington, VA',
+                        blurb: 'Hi! I\'m a senior studying CS. In my free time I like playing board games and reading very generic fantasy books, all titled "The [noun] of [noun]".'
                     },
                     {
                         cslogin: 'ngoodson',
                         name: 'Nastassia Goodson',
                         personalPhotoURL: 'content/staff/nastassia-blurb.png',
-                        themePhotoURL: 'content/staff/nastassia-goodson.png',
+                        themePhotoURL: 'content/staff/nastassia-goodson.jpg',
                         theme: '',
                         pronouns: 'she/her/hers',
                         hometown: 'Portland, OR',
+                        blurb: 'Hi! I\'m a junior studying CS.  Outside of class, I like to ballroom dance, ski, and spend time outside!'
                     },
                     {
                         cslogin: 'pdam',
@@ -188,7 +200,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/put-dam.jpg',
                         theme: '',
                         pronouns: 'he/him/his',
-                        hometown: 'Worcester, MA'
+                        hometown: 'Worcester, MA',
+                        blurb: ' Hi! I\m a junior studying CS.I\'m also a part of Brown Tang Soo Do. Outside of class, I love watching the Pats and all things American football, and playing Smash Bros!'
                     },
                 ],
                 [
@@ -196,10 +209,11 @@ Vue.component('page-content', {
                         cslogin: 'achang57',
                         name: 'Adrian Chang',
                         personalPhotoURL: 'content/staff/adrian-blurb.png',
-                        themePhotoURL: 'content/staff/adrian-chang.jpg',
+                        themePhotoURL: 'content/staff/adrian-chang.png',
                         theme: '',
                         pronouns: 'he/him/his',
-                        hometown: 'Carlsbad, CA'
+                        hometown: 'Carlsbad, CA',
+                        blurb: 'Hi, I\'m a sophomore studying CS. I like to play WoW and League outside of class. '
                     },
                     {
                         cslogin: 'agu10',
@@ -208,7 +222,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/alan-gu.jpg',
                         theme: '',
                         pronouns: 'he/him',
-                        hometown: 'Millwood, NY'
+                        hometown: 'Millwood, NY',
+                        blurb: 'Hi, I\'m Alan. Come to my hours.'
                     },
                     {
                         cslogin: 'yguo62',
@@ -217,7 +232,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/default.png',
                         theme: '',
                         pronouns: 'he/him',
-                        hometown: 'Buffalo Grove, IL'
+                        hometown: 'Buffalo Grove, IL',
+                        blurb: 'Hey! I\'m a sophomore from the greater Chicago area studying CS and dabbling in premed. In normal times, I enjoy playing the piano and working out at the Nelson.'
                     },
                     {
                         cslogin: 'acimack',
@@ -226,7 +242,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/annie-cimack.jpg',
                         theme: '',
                         pronouns: 'she/her/hers',
-                        hometown: 'Mt. Prospect, IL'
+                        hometown: 'Mt. Prospect, IL',
+                        blurb: 'Hey!! I\'m a sophomore, and when I\'m not doing CS things, I write for the Brown Noser and play alto sax in the Brown Band.In my free time, I like watching old movies, and I\'m trying to learn embroidery! '
                     },
                     {
                         cslogin: 'achang65',
@@ -235,7 +252,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/default.png',
                         theme: '',
                         pronouns: '',
-                        hometown: ''
+                        hometown: '',
+                        blurb: ''
                     },
                     {
                         cslogin: 'cohwille',
@@ -244,7 +262,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/default.png',
                         theme: '',
                         pronouns: 'he/him',
-                        hometown: 'Denver, CO'
+                        hometown: 'Denver, CO',
+                        blurb: 'Hi, I\'m from Denver, Colorado and I\'m a sophomore studying CS. I enjoy making music and playing video games. '
                     },
                     {
                         cslogin: 'elerena',
@@ -253,7 +272,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/default.png',
                         theme: '',
                         pronouns: 'he/him/his',
-                        hometown: 'Boyle Heights'
+                        hometown: 'Boyle Heights',
+                        blurb: 'Yo. I\'m a sophomore studying CS. I live in a small city near the beach called Los Angeles if you\'ve ever heard of it. I love reading manga, manhwa, light novels, watching anime and stand- up comedy(Dave Chappelle is the GOAT). I look forward to being your TA this semester!'
                     },
                     {
                         cslogin: 'emullen2',
@@ -262,7 +282,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/ethan-mullen.jpg',
                         theme: '',
                         pronouns: 'he/him/his',
-                        hometown: 'Atlanta'
+                        hometown: 'Atlanta',
+                        blurb: 'Hey! I\'m a sophomore concentrating in Computer Science and Theatre Arts. I love theatre, fairy lights, fake plants, and graphic design. '
                     },
                     {
                         cslogin: 'fkierzen',
@@ -271,7 +292,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/filip-kierzenka.jpeg',
                         theme: '',
                         pronouns: 'he/him/his',
-                        hometown: 'Framingham, MA'
+                        hometown: 'Framingham, MA',
+                        blurb: 'Hi! I\'m a sophomore studying APMA+CS but I also like philosophy and art. I\'m part of the Club Hockey Team and the Brown Political Review.In my free time I like exercising, listening to music, and reinventing the wheel.'
                     },
                     {
                         cslogin: 'glee73',
@@ -280,7 +302,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/grace-lee.jpg',
                         theme: '',
                         pronouns: 'she/her',
-                        hometown: 'Dallas, TX'
+                        hometown: 'Dallas, TX',
+                        blurb: 'Hey! I\'m a sophomore studying CS and Econ. My favorite quarantine pastimes have been collecting teas, binging The Queen\'s Gambit, and making new playlists.'
                     },
                     {
                         cslogin: 'hvenkata',
@@ -289,7 +312,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/harshini-venkatachalam.jpg',
                         theme: '',
                         pronouns: 'she/her',
-                        hometown: 'Tempe, Arizona'
+                        hometown: 'Tempe, Arizona',
+                        blurb: 'hi! I\’m a sophomore studying cs and visa (hopefully!) I enjoy watching movies, growing plants, and meeting new people! '
                     },
                     {
                         cslogin: 'hzonnenb',
@@ -298,7 +322,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/hunter-zonnenberg.jpeg',
                         theme: '',
                         pronouns: 'he/him',
-                        hometown: 'Marblehead, MA'
+                        hometown: 'Marblehead, MA',
+                        blurb: 'I\'m a Sophomore studying APMA-CS and Public Policy. I\'m super psyched to be TAing this semester and am looking forward to getting to know all of you! Outside of class, I\'m on the sailing team and enjoy watching F1.'
                     },
                     {
                         cslogin: 'ihiltonv',
@@ -307,7 +332,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/isaac-hilton-vanosdall.jpeg',
                         theme: '',
                         pronouns: 'he/him/his',
-                        hometown: 'Barre, VT'
+                        hometown: 'Barre, VT',
+                        blurb: 'I\'m from Barre, Vermont and I\'m a Computer Science Concentrator focusing on AI and software development. I play a lot of music, mostly classical and jazz. I love being outdoors and spend my free time rock climbing, mountain biking and skiing!'
                     },
                     {
                         cslogin: 'jriley5',
@@ -316,7 +342,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/jack-riley.jpeg',
                         theme: '',
                         pronouns: 'he/him',
-                        hometown: 'LA'
+                        hometown: 'LA',
+                        blurb: 'Hey all, I\'m Jack. I\'m a sophomore studying CS and music, and a part of the Brown Organization of Producers and Tunes for Change. In my free time, I love to run, cycle, and make music. '
                     },
                     {
                         cslogin: 'qhan3',
@@ -325,7 +352,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/joe-han.jpg',
                         theme: '',
                         pronouns: 'he/him/his',
-                        hometown: 'Madison, MS'
+                        hometown: 'Madison, MS',
+                        blurb: 'Hello! I\'m a junior studying CS. Outside of class, I\'m a chess coach and chess programmer. In addition, I enjoy lockpicking and running (in no particular order). '
                     },
                     {
                         cslogin: 'ldo6',
@@ -334,7 +362,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/default.png',
                         theme: '',
                         pronouns: 'him/his',
-                        hometown: 'Hanoi, Vietnam'
+                        hometown: 'Hanoi, Vietnam',
+                        blurb: 'Hey you, I\'m a 3rd year studying CS and Philosophy. I like post apocalyptic movies and time travel books. On a nice day and with health conditions allowing, you can often find me on the main green playing spikeball. I\'ve recently become very invested in fantasy basketball. I look forward to meeting allow of you!'
                     },
                     {
                         cslogin: 'mthain',
@@ -343,7 +372,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/morgann-thain.jpg',
                         theme: '',
                         pronouns: 'he/his',
-                        hometown: 'Abington/Philly'
+                        hometown: 'Abington/Philly',
+                        blurb: 'Hi :) I\'m a junior studying CS. I play ultimate frisbee and am doing data analysis for it, I like to take philosophy and math classes, and I play rocket league and watch netflix for fun. '
                     },
                     {
                         cslogin: 'ncancell',
@@ -352,7 +382,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/nick-cancellaro.jpeg',
                         theme: '',
                         pronouns: 'he/him',
-                        hometown: 'Hebron, Connecticut'
+                        hometown: 'Hebron, Connecticut',
+                        blurb: 'Hello! I am a sophomore studying computer science. Outside of class I play for the orchestra and love listening to new music (recommendations are always appreciated).'
                     },
                     {
                         cslogin: 'pmontei1',
@@ -361,7 +392,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/default.png',
                         theme: '',
                         pronouns: '',
-                        hometown: ''
+                        hometown: '',
+                        blurb: ''
                     },
                     {
                         cslogin: 'pzubiago',
@@ -370,7 +402,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/peter-zubiago.png',
                         theme: '',
                         pronouns: 'he/him/his',
-                        hometown: 'East Greenwich, Rhode Island'
+                        hometown: 'East Greenwich, RI',
+                        blurb: 'Hello! I\'m a junior studying English and Computer Science. When I\'m not reading books or writing code, you will probably find me swimming, watching TV, or making bagels!'
                     },
                     {
                         cslogin: 'rbush',
@@ -379,7 +412,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/robert-bush.jpg',
                         theme: '',
                         pronouns: 'he/him/his',
-                        hometown: 'West Bloomfield, Michigan'
+                        hometown: 'West Bloomfield, MI',
+                        blurb: 'Hello! I\'m a sophomore studying CS and English. I\'m apart of the Production Workshop and love all things theater. I look forward to meeting all of you!'
                     },
                     {
                         cslogin: 'vpondtor',
@@ -388,7 +422,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/virak-pond-tor.jpg',
                         theme: '',
                         pronouns: 'he/him/his',
-                        hometown: 'Cranston, RI'
+                        hometown: 'Cranston, RI',
+                        blurb: 'Hey! I\'m a sophomore from Rhode Island studying CS. In my free time I like to play volleyball, skateboard, and watch anime.'
                     },
                     {
                         cslogin: 'zzhu42',
@@ -397,7 +432,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/default.png',
                         theme: '',
                         pronouns: 'he/him/his',
-                        hometown: 'Weston, MA'
+                        hometown: 'Weston, MA',
+                        blurb: ''
                     },
                     {
                         cslogin: 'zzhou65',
@@ -406,7 +442,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/default.png',
                         theme: '',
                         pronouns: '',
-                        hometown: ''
+                        hometown: '',
+                        blurb: 'Hello! My name is Zach, and I\'m a sophomore studying computer science from Weston, MA. Outside of class, I enjoy walks, hiking, and games of any kind.'
                     },
                 ],
                 [
@@ -417,7 +454,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/default.png',
                         theme: '',
                         pronouns: '',
-                        hometown: ''
+                        hometown: '',
+                        blurb: ''
                     },
                     {
                         cslogin: 'skothar7',
@@ -426,7 +464,8 @@ Vue.component('page-content', {
                         themePhotoURL: 'content/staff/default.png',
                         theme: '',
                         pronouns: '',
-                        hometown: ''
+                        hometown: '',
+                        blurb: ''
                     },
                 ],
             ],
