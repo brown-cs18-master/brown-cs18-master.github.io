@@ -49,12 +49,6 @@ const pageFooter = {
                       </span>
                       <email :email="HTAEmail"></email>
                     </span>
-                    <span class="d-flex flex-row justify-content-between">
-                      <span class="mr-2">
-                          TA:
-                      </span>
-                      <email :email="TAEmail"></email>
-                    </span>
                   </div>
               </p>
               <p>
