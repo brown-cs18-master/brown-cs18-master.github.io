@@ -152,7 +152,7 @@ const codingResourcesSection = {
             >
             <p>
                 Please come to TA hours for help with conceptual and technical questions regarding assignments (except for exams). When you come to hours,
-                we expect that you have read the 
+                we expect that you have read the <page-link title="ta hours guide" href="https://hackmd.io/@cs18-spring-2021/H1-qgOkkO" text="TA Hours Guide"></page-link>.
             </p>
                 <course-resource title="Coding Help">
                     <ul>
@@ -164,13 +164,13 @@ const codingResourcesSection = {
                 </course-resource>
                 <course-resource title="Coding Guidelines">
                     <ul>
-                        <li><page-link title="java style guide" href="https://cs.brown.edu/courses/csci0180/content/docs-spec/java-style.pdf" text="Java Style Guide"></page-link></li>
-                        <li><page-link title="good coding practices" href="https://cs.brown.edu/courses/csci0180/content/docs-spec/java-gcp.pdf" text="Good Coding Practices"></page-link></li>
-                        <li><page-link title="scala style guide" href="https://cs.brown.edu/courses/csci0180/content/docs-spec/scala-style.pdf" text="Scala Style Guide"></page-link></li>
-                        <li><page-link title="additional scala good coding practices" href="https://cs.brown.edu/courses/csci0180/content/docs-spec/scala-gcp.pdf" text="Additional Scala Good Coding Practices"></page-link></li>
+                        <li><page-link title="java style guide" href="content/resources/java-style.pdf" text="Java Style Guide"></page-link></li>
+                        <li><page-link title="good coding practices" href="content/resources/java-gcp.pdf" text="Good Coding Practices"></page-link></li>
+                        <li><page-link title="scala style guide" href="/content/resources/scala-style.pdf" text="Scala Style Guide"></page-link></li>
+                        <li><page-link title="additional scala good coding practices" href="content/resources/scala-gcp.pdf" text="Additional Scala Good Coding Practices"></page-link></li>
                         <li><page-link title="javadocs" href="http://docs.oracle.com/javase/8/docs/api/" text="Javadocs"></page-link></li>
                         <li><page-link title="scaladocs" href="http://www.scala-lang.org/api/current/index.html" text="Scaladocs"></page-link></li>
-                        <li><page-link title="regex guide" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/Regex.pdf" text="Regex Guide"></page-link></li>
+                        <li><page-link title="regex guide" href="content/resources/Regex.pdf" text="Regex Guide"></page-link></li>
                         <li><page-link title="tester documentation" href="http://www.ccs.neu.edu/javalib/Tester/index.html" text="Tester Documentation"></page-link></li>
                     </ul>
                 </course-resource>

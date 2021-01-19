@@ -81,7 +81,7 @@ const homeworkAssignment = {
         parseTime: function (timeStr) {
             let timeObj = moment(timeStr, ['MM/DD', 'YYYY/MM/DD'], true);
             if (timeObj.isValid()) {
-                timeObj.hour(18);
+                timeObj.hour(12);
                 timeObj.minute(0);
             } else {
                 timeObj = moment(timeStr, [
@@ -159,7 +159,7 @@ const labAssignment = {
         parseTime: function (timeStr) {
             let timeObj = moment(timeStr, ['MM/DD', 'YYYY/MM/DD'], true);
             if (timeObj.isValid()) {
-                timeObj.hour(18);
+                timeObj.hour(12);
                 timeObj.minute(0);
             } else {
                 timeObj = moment(timeStr, [
@@ -237,7 +237,7 @@ const projectAssignment = {
         parseTime: function (timeStr) {
             let timeObj = moment(timeStr, ['MM/DD', 'YYYY/MM/DD'], true);
             if (timeObj.isValid()) {
-                timeObj.hour(18);
+                timeObj.hour(12);
                 timeObj.minute(0);
             } else {
                 timeObj = moment(timeStr, [
@@ -314,7 +314,7 @@ const examAssignment = {
         parseTime: function (timeStr) {
             let timeObj = moment(timeStr, ['MM/DD', 'YYYY/MM/DD'], true);
             if (timeObj.isValid()) {
-                timeObj.hour(18);
+                timeObj.hour(12);
                 timeObj.minute(0);
             } else {
                 timeObj = moment(timeStr, [
@@ -437,7 +437,7 @@ Vue.component('page-content', {
                 {
                     name: 'For-While Loops; Oracle',
                     handoutURL: '',
-                    out: '02/3',
+                    out: '02/3 12pm',
                     slidesName: 'Slides',
                     slidesURL: ''
                 },

@@ -253,11 +253,11 @@ Vue.component('page-content', {
                     <p>Broadly speaking, CS15 students will be practicing using recursion to traverse recursively-defined datatypes, programming with
                     higher-order functions (e.g., maps and filters), programming without assignment statements, and testing code without print statements.
                     You will complete this module in Python (it's easier for us to show you some of this content, like higher-order functions, in Python than
-                    in Java, even if you don't already know Python). If you haven't used Python, we recommend using [repl.it](www.repl.it) as a 
+                    in Java, even if you don't already know Python). If you haven't used Python, we recommend using <a href="https://repl.it"><b>repl.it</b></a> as a 
                     no-frills online programming environment (you can use whatever tool you wish, though, as long as you work in Python version 3).</p>
                     
                     <p>The essence of the module lies in the required problem sets [LINK]. Your goal is to complete (and submit your solutions to) those problems
-                    by the time the second homework comes in for the mainstream CS18 track [INSERT DATE]. Starting with homework 3, everyone will complete the
+                    by the time the second homework comes in for the mainstream CS18 track (Januaray 29th). Starting with homework 3, everyone will complete the
                     same assignments for the rest of the course.</p>
                     
                     <p>During the first week of class, we will identify a time slot for overview lectures on this content (at a different time than

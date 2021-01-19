@@ -33,8 +33,8 @@ const courseLecture = {
         parseTime: function (timeStr) {
             let timeObj = moment(timeStr, ['MM/DD', 'YYYY/MM/DD'], true);
             if (timeObj.isValid()) {
-                timeObj.hour(14);
-                timeObj.minute(30);
+                timeObj.hour(11);
+                timeObj.minute(0);
             } else {
                 timeObj = moment(timeStr, [
                     'MM/DD HH:mm',
@@ -115,9 +115,9 @@ Vue.component('page-content', {
                 {
                     name: 'Course Overview; Classes and Objects',
                     date: '01/20',
-                    noteNames: ['Example Notes',],
+                    noteNames: [],
                     noteURLs: [
-                        'content/lectures/Example Placeholder PDF.pdf',
+
                     ],
                     recordingNames: [],
                     recordingURLs: [],
