@@ -116,10 +116,8 @@ Vue.component('page-content', {
                 {
                     name: 'Course Overview; Classes and Objects',
                     date: '01/20',
-                    noteNames: [],
-                    noteURLs: [
-
-                    ],
+                    noteNames: ['Starter (pyret)', 'Starter (ML)'],
+                    noteURLs: ['content/lectures/01intro/dillo.arr', 'content/lectures/01intro,dillo.ml'],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
@@ -131,9 +129,7 @@ Vue.component('page-content', {
                     name: 'OOP: Methods and Testing',
                     date: '01/22',
                     noteNames: [],
-                    noteURLs: [
-
-                    ],
+                    noteURLs: [],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
@@ -650,7 +646,7 @@ Vue.component('page-content', {
             tableheads: [
                 'lecture #',
                 'date',
-                'notes',
+                'notes/starters',
                 'recording',
                 'practice',
                 'links'
