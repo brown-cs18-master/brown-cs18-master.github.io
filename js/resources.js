@@ -28,7 +28,7 @@ const courseDocumentsSection = {
         <section class="container-fluid d-flex flex-wrap flex-row my-5 px-0 px-sm-5">
             <page-section-title
               :icon-classes="curPageIconClasses"
-              text="course missive"
+              text="course syllabus"
               :style-object="{'color': curPageThemeColor}"
               :text-style-object="{'border-bottom': 'solid thick'}"
             ></page-section-title>
@@ -36,9 +36,9 @@ const courseDocumentsSection = {
               class="mx-4 mx-sm-5 px-0 px-lg-5 flex-fill d-flex flex-column"
               :style="{ color: curPageThemeColor, 'font-size': 'larger' }"
             >
-                <p>Refer to the missive for information about course learning goals, late day policies, and more.</p>
+                <p>Refer to the syllabus for information about course learning goals, late day policies, and more.</p>
                 <ul>
-                    <li><page-link title="course missive" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/missive.html" text="Course Missive"></page-link></li>
+                    <li><page-link title="course syllabus" href="https://hackmd.io/@cs18-spring-2021/r1GSAemJd" text="Course Syllabus"></page-link></li>
                 </ul>
             </div>
         </section>
@@ -157,9 +157,9 @@ const codingResourcesSection = {
                 <course-resource title="Coding Help">
                     <ul>
                         <li><page-link title="ta hours guide" href="https://hackmd.io/@cs18-spring-2021/H1-qgOkkO" text="TA Hours Guide"></page-link></li>
-                        <li><page-link title="pair-programming" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/pair-programming.html" text="Pair Programming Guide"></page-link></li>
+                        <li><page-link title="pair-programming" href="https://hackmd.io/@cs18-spring-2021/rk1u3BZk_" text="Pair Programming Guide"></page-link></li>
                         <li><page-link title="debugging guide" href="https://hackmd.io/@cs18-spring-2021/rkkNS5kkd" text="Debugging Guide"></page-link></li>
-                        <li><page-link title="collaboration policy" href="https://cs.brown.edu/courses/csci0180/content/docs-gen/missive.html" text="Collaboration Policy"></page-link></li>
+                        <li><page-link title="collaboration policy" href="https://hackmd.io/@cs18-spring-2021/H1bI7WX1d" text="Collaboration Policy"></page-link></li>
                     </ul>
                 </course-resource>
                 <course-resource title="Coding Guidelines">

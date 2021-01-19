@@ -34,7 +34,7 @@ Vue.component('page-content', {
                 >
                     <h3>Notes For TA Hours:</h3>
                     <ul>
-                        <li>TA hours are generally held on Zoom. To join, please sign up on <a href="signmeup.cs.brown.edu"><b>SignMeUp</b></a>. TAs' Zoom links can be found on SignMeUp.</li>
+                        <li>TA hours are generally held on Zoom. To join, please sign up on <a href="https://signmeup.cs.brown.edu/"><b>SignMeUp</b></a>. TAs' Zoom links can be found on SignMeUp.</li>
                         <li>Some TA hours are one-on-one, while some other are open to all students to join. The information of the format of each set of hours could be found on the course calendar.</li>
                         <li>Before signing up for TA hours, make sure to read the <a href="https://hackmd.io/@cs18-spring-2021/H1-qgOkkO"><b>TA Hours Guide</b></a>.</li>
                     </ul>
