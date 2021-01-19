@@ -56,6 +56,7 @@ const pageFooter = {
                 Spring 2021 &bull;
                 <page-link href="http://cs.brown.edu/people/kfisler/" text="Kathi Fisler"></page-link> &bull;
                 <page-link href="https://cs.brown.edu" text="Brown University Computer Science"></page-link>
+                <page-link title="feedback form" href="https://docs.google.com/forms/d/e/1FAIpQLSc4SvLLwSVodGaGQgpRDbAiet80FkzM--ErKwwuTKoILaROHA/viewform?usp=sf_link" text="Provide feedback with this anonymous feedback form"></page-link>
               </p>
         </footer>
     `,
