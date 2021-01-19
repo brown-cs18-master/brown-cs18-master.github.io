@@ -52,6 +52,14 @@ const courseLecture = {
     template: `
         <tr>
             <th scope="row">
+                <page-countdown-time
+                name="deliver"
+                :time="outMoment"
+                :now="now"
+                >
+                </page-countdown-time>
+            </th>
+            <td>
                 <span>
                     {{index}}:
                 </span>
@@ -59,14 +67,6 @@ const courseLecture = {
                   :text="name"
                 >
                 </page-click-copy>
-            </th>
-            <td>
-                <page-countdown-time
-                  name="deliver"
-                  :time="outMoment"
-                  :now="now"
-                >
-                </page-countdown-time>
             </td>
             <td>
                 <page-links
@@ -644,8 +644,8 @@ Vue.component('page-content', {
             ],
             now: moment(),
             tableheads: [
-                'lecture #',
                 'date',
+                'lecture #',
                 'notes/starters',
                 'recording',
                 'practice',
