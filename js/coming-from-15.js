@@ -257,7 +257,7 @@ Vue.component('page-content', {
                     no-frills online programming environment (you can use whatever tool you wish, though, as long as you work in Python version 3).</p>
                     
                     <p>The essence of the module lies in the required problem sets [LINK]. Your goal is to complete (and submit your solutions to) those problems
-                    by the time the second homework comes in for the mainstream CS18 track (Januaray 29th). Starting with homework 3, everyone will complete the
+                    by the time the second homework comes in for the mainstream CS18 track (February 3rd). Starting with homework 3, everyone will complete the
                     same assignments for the rest of the course.</p>
                     
                     <p>During the first week of class, we will identify a time slot for overview lectures on this content (at a different time than
