@@ -229,7 +229,7 @@ Vue.component('page-content', {
                         cslogin: 'yguo62',
                         name: 'Alex Guo',
                         personalPhotoURL: 'content/staff/alex-blurb.png',
-                        themePhotoURL: 'content/staff/default.png',
+                        themePhotoURL: 'content/staff/alex-guo.jpeg',
                         theme: '',
                         pronouns: 'he/him',
                         hometown: 'Buffalo Grove, IL',
