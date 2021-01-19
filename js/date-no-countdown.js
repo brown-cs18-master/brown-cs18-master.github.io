@@ -15,7 +15,7 @@ const pageCountdownTime = {
 	},
 	computed: {
 		displayedTime: function () {
-			return this.time.format('MMM Do, LT');
+			return this.time.format('MMM Do');
 		},
 		timeFromNow: function () {
 			return this.time.diff(this.now);

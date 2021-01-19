@@ -1,6 +1,6 @@
 import pageClickCopy from './page-click-copy.js';
 import pageCountdownTime from './page-countdown-time.js';
-import dateTimeNoCountdown from './date-time-no-countdown.js';
+import dateTimeNoCountdown from './date-no-countdown.js';
 import pageLinks from './page-links.js';
 import pageTable from './page-table.js';
 import pageSectionTitle from './page-section.js';
