@@ -451,7 +451,7 @@ Vue.component('page-content', {
                         cslogin: 'gdahl',
                         name: '',
                         personalPhotoURL: 'content/staff/default.png',
-                        themePhotoURL: 'content/staff/default.png',
+                        themePhotoURL: 'content/staff/gregory-dahl.jpeg',
                         theme: '',
                         pronouns: '',
                         hometown: '',
