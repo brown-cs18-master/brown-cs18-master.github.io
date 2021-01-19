@@ -14,16 +14,16 @@ const pageCountdownTime = {
         'page-click-copy': pageClickCopy,
     },
     computed: {
-        displayedTime: function() {
+        displayedTime: function () {
             return this.time.format('MMM Do, LT');
         },
-        timeFromNow: function() {
+        timeFromNow: function () {
             return this.time.diff(this.now);
         },
-        timeFromNowDisplayed: function() {
+        timeFromNowDisplayed: function () {
             return this.time.from(this.now);
         },
-        statusClasses: function() {
+        statusClasses: function () {
             if (this.timeFromNow < 0) {
                 return ['fas', 'fa-calendar-check', 'fa-lg'];
             }
