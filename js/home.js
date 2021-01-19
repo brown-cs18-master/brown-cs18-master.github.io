@@ -43,10 +43,10 @@ const courseInfoSection = {
   template: `
     <section class="container-fluid d-flex flex-sm-wrap flex-md-nowrap flex-lg-nowrap flex-row my-5 px-0 px-sm-5">
         <div class="d-flex flex-lg-nowrap">
-        <page-section-title 
+        <page-section-title
               :icon-classes="curPageIconClasses"
               text=""
-              :style-object="{'color': curPageThemeColor, 'text-decoration-line': 'underline', 
+              :style-object="{'color': curPageThemeColor, 'text-decoration-line': 'underline',
               'text-decoration-style': 'wavy', 'width': 'fit-content!important', 'margin-right': '0!important' }"
             ></page-section-title>
             <div
@@ -55,15 +55,15 @@ const courseInfoSection = {
             >
             <div id="course-description-container" class="mb-4" style="font-size: 1.1rem; margin-left: 0">
                 <span class="mr-4" :style="{ color: curPageThemeColor }">
-                   CS18 is a second-semester course on computing and programming. 
-                   We explore the use and design of several core data structures 
-                   and algorithms, assess the impacts of data structures and algorithms 
-                   on time and space resources as well as users and society, learn 
+                   CS18 is a second-semester course on computing and programming.
+                   We explore the use and design of several core data structures
+                   and algorithms, assess the impacts of data structures and algorithms
+                   on time and space resources as well as users and society, learn
                    object oriented programming and design, and develop essential
-                    software skills around testing, debugging, and version control. 
-                    While most students taking CS18 are considering concentrations 
-                    in or that use CS, all students who have completed a prerequisite 
-                    course (0111, 0112, 0150, 0170, 0190) are welcome (and have 
+                    software skills around testing, debugging, and version control.
+                    While most students taking CS18 are considering concentrations
+                    in or that use CS, all students who have completed a prerequisite
+                    course (0111, 0112, 0150, 0170, 0190) are welcome (and have
                     succeeded in the past!).
                     <br/>
                      <br style="font-size: 0.75rem"/>
@@ -139,7 +139,7 @@ const courseInfoSection = {
                                     <cs-prereq course-num="0112" moreText="" :background-color="curPageThemeColor"></cs-prereq>
                                     <cs-prereq course-num="0170" moreText="" :background-color="curPageThemeColor"></cs-prereq>
                                     <cs-prereq course-num="0190" moreText="" :background-color="curPageThemeColor"></cs-prereq>
-                                    <cs-prereq course-num="0111" moreText=" + Bridge Material" :background-color="curPageThemeColor"></cs-prereq>                                    
+                                    <cs-prereq course-num="0111" moreText=" + Bridge Material" :background-color="curPageThemeColor"></cs-prereq>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +178,7 @@ const essentialLinksSection = {
                     <li><page-link title="lab switch" href="https://docs.google.com/forms/d/e/1FAIpQLSdIZ53brbaNhcA9EnhaX3_rM8rjAFwT7ae4AmzhInaLEJi-4w/viewform?usp=sf_link" text="Request a one-time lab switch by filling out the lab-switch form"></page-link></li>
                     <li><page-link title="lab switch" href="https://prismia.chat/projects/e4d25559-76da-4471-a576-88ca430da10a/classroom" text="Ask questions and participate in class discussions via Prismia chat"></page-link></li>
                     <li><page-link title="extension request" href="mailto:kathryn_fisler@brown.edu" text="Contact Professor Fisler/Kathi regarding emergencies, personal situations, or extensions"></page-link></li>
-                    <li><page-link title="late day" href="https://hackmd.io/@cs18-spring-2021/r1GSAemJd" text="Refer to the course policies and grading information as needed."></page-link></li>
+                    <li><page-link title="late day" href="https://hackmd.io/@cs18-spring-2021/r1GSAemJd" text="Refer to the course missive for the late day policy."></page-link></li>
                 </ul>
             </div>
         </section>
@@ -272,8 +272,8 @@ const learningObjectives = {
         <div id="topics-container">
           <div id="course-description-container" class="mb-4" style="font-size: 1.1rem; margin-left: 0">
               <span class="mr-4" :style="{ color: curPageThemeColor }">
-                  Our learning objectives page summarizes the core skills and knowledge that the course 
-                  is designed to help you master. As we grade your work, we will give you feedback on your 
+                  Our learning objectives page summarizes the core skills and knowledge that the course
+                  is designed to help you master. As we grade your work, we will give you feedback on your
                   progress towards these objectives. Use this list as a guide to help you remember the big
                     picture of each assignment.
                   <br/>
@@ -371,7 +371,7 @@ const courseMaterialSection = {
                 <course-topics
                   :cur-page-theme-color="curPageThemeColor"
                 >
-                </course-topics>   
+                </course-topics>
 
             </div>
         </section>
@@ -458,17 +458,17 @@ Vue.component("page-content", {
                 :cur-page-theme-color="curPageThemeColor"
                 :cur-page-icon-classes="curPageIconClasses"
             >
-            </essential-links-section>   
+            </essential-links-section>
             <learning-objectives-section
                 :cur-page-theme-color="curPageThemeColor"
                 :cur-page-icon-classes="curPageIconClasses"
             >
-            </learning-objectives-section>  
+            </learning-objectives-section>
             <diversity-inclusion-section
                 :cur-page-theme-color="curPageThemeColor"
                 :cur-page-icon-classes="curPageIconClasses"
             >
-            </diversity-inclusion-section>  
+            </diversity-inclusion-section>
 
         </main>
     `,
