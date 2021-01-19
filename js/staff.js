@@ -155,7 +155,7 @@ Vue.component('page-content', {
                         cslogin: 'kfisler',
                         name: 'Kathi Fisler',
                         personalPhotoURL: 'content/staff/kathi-blurb.png',
-                        themePhotoURL: 'content/staff/default.png',
+                        themePhotoURL: 'content/staff/kathi.jpg',
                         theme: '',
                         pronouns: 'she/her/hers',
                         hometown: 'Staten Island, NY',
@@ -259,7 +259,7 @@ Vue.component('page-content', {
                         cslogin: 'cohwille',
                         name: 'Clark Oh-Willeke',
                         personalPhotoURL: 'content/staff/clark-blurb.png',
-                        themePhotoURL: 'content/staff/default.png',
+                        themePhotoURL: 'content/staff/clark.JPG',
                         theme: '',
                         pronouns: 'he/him',
                         hometown: 'Denver, CO',
@@ -359,7 +359,7 @@ Vue.component('page-content', {
                         cslogin: 'ldo6',
                         name: 'Long Do',
                         personalPhotoURL: 'content/staff/long-blurb.png',
-                        themePhotoURL: 'content/staff/default.png',
+                        themePhotoURL: 'content/staff/long-do.JPG',
                         theme: '',
                         pronouns: 'him/his',
                         hometown: 'Hanoi, Vietnam',
@@ -433,7 +433,7 @@ Vue.component('page-content', {
                         theme: '',
                         pronouns: 'he/him/his',
                         hometown: 'Weston, MA',
-                        blurb: ''
+                        blurb: 'Hello! My name is Zach, and I\'m a sophomore studying computer science from Weston, MA. Outside of class, I enjoy walks, hiking, and games of any kind.'
                     },
                     {
                         cslogin: 'zzhou65',
@@ -443,7 +443,7 @@ Vue.component('page-content', {
                         theme: '',
                         pronouns: '',
                         hometown: '',
-                        blurb: 'Hello! My name is Zach, and I\'m a sophomore studying computer science from Weston, MA. Outside of class, I enjoy walks, hiking, and games of any kind.'
+                        blurb: ''
                     },
                 ],
                 [
