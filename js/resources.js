@@ -70,7 +70,8 @@ const softwareSetupSection = {
                 <p>If you need help setting up your software and environment, please come to hours! But first, consult these guides:</p>
                 <ul>
                     <li><page-link title="intellij setup guide" href="https://hackmd.io/@cs18-spring-2021/rkqhvPyy_" text="Intellij Setup Guide"></page-link></li>
-                    <li><page-link title="di-resource-link" href="https://hackmd.io/@cs18-spring-2021/BkfI_Pky_" text="Github Guide"></page-link></li>
+                    <li><page-link title="github guide" href="https://hackmd.io/@cs18-spring-2021/BkfI_Pky_" text="Github Guide"></page-link></li>
+                    <li><page-link title="tester jar" href="content/resources/tester.jar" text="Download tester.jar (If prompted, press 'Keep' to proceed with download.)"></page-link></li>
                 </ul>
             </div>
         </section>
