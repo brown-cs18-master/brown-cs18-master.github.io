@@ -117,7 +117,7 @@ Vue.component('page-content', {
                     name: 'Course Overview; Classes and Objects',
                     date: '01/20',
                     noteNames: ['Starter (pyret)', 'Starter (ML)'],
-                    noteURLs: ['content/lectures/01intro/dillo.arr', 'content/lectures/01intro,dillo.ml'],
+                    noteURLs: ['content/lectures/01intro/dillo.arr', 'content/lectures/01intro/dillo.ml'],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: ["Practice Probs"],
