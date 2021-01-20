@@ -593,7 +593,7 @@ Vue.component('page-content', {
                   :style="{ color: curPageThemeColor}"
                 >
                     <p>
-                        There are 12 labs. Labs are synchronized and held virtually. See <a href="https://brown-cs18-master.github.io/hours.html"><b>the calendar</b></a> for a list of lab times. If you need to reschedule your lab time, please see the <a href="https://hackmd.io/@cs18-spring-2021/r1GSAemJd"><b>course syllabus</b></a>.
+                        There are 11 labs. Labs are synchronized and held virtually. See <a href="https://brown-cs18-master.github.io/hours.html"><b>the calendar</b></a> for a list of lab times. If you need to reschedule your lab time, please see the <a href="https://hackmd.io/@cs18-spring-2021/r1GSAemJd"><b>course syllabus</b></a>.
                     </p>
                     <page-table
                       :tableheads="labsTableheads"
