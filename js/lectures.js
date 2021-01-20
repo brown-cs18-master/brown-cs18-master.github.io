@@ -120,8 +120,8 @@ Vue.component('page-content', {
                     noteURLs: ['content/lectures/01intro/dillo.arr', 'content/lectures/01intro,dillo.ml'],
                     recordingNames: [],
                     recordingURLs: [],
-                    practiceNames: [],
-                    practiceURLs: [],
+                    practiceNames: ["Practice Probs"],
+                    practiceURLs: ["content/practice/01classes.pdf"],
 		    linksNames: ["Background Survey", "Hwk 0 (due 1/29)"],
                     linksURLs: ["https://docs.google.com/forms/d/e/1FAIpQLSeeylnFpK4yO5uZq_itfvelDpvo0JaMZdKEv-AX4q2P8nAb3w/viewform?usp=sf_link", "https://hackmd.io/@cs18-spring-2021/SyyvWxBJu"]
                 },
