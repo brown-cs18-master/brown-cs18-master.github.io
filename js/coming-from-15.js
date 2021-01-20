@@ -237,13 +237,13 @@ Vue.component('page-content', {
                   class="mx-4 mx-sm-5 mb-4 mb-sm-5"
                   :style="{ color: curPageThemeColor}">
                     <p>This page is for students coming into CS18 from CS15. CS18 spends much of the first two weeks introducing Java. During this
-                    time, students from CS15 will work on different content that covers material from 111/112/17/19 that CS18 assumes.</p>
+                    time, students from CS15 will work on different content that covers material from 111/112/17/19 that CS18 assumes. (If you are not
+comfortable using interfaces as types or with the difference between interfaces and abstract classes, however, you will probably want to check the notes from lecture 3 of the main track.)</p>
                     
                     <p>Broadly speaking, CS15 students will be practicing using recursion to traverse recursively-defined datatypes, programming with
                     higher-order functions (e.g., maps and filters), programming without assignment statements, and testing code without print statements.
                     You will complete this module in Python (it's easier for us to show you some of this content, like higher-order functions, in Python than
-                    in Java, even if you don't already know Python). If you haven't used Python, we recommend using <a href="https://repl.it"><b>repl.it</b></a> as a 
-                    no-frills online programming environment (you can use whatever tool you wish, though, as long as you work in Python version 3).</p>
+                    in Java, even if you don't already know Python). You may use any Python tool that you wish (as long as you are in Python version 3); the first homework assignment links to a simple/no-frills online environment that will suffice for this segment.</p>
                     
                     <p>The essence of the module lies in the required problem sets (in the "Assignment" column in the table below). There will be two homeworks, due on the same schedule as the main CS 18 track (but you do these assignments instead of those). Starting with homework 3, everyone will complete the
                     same assignments for the rest of the course.</p>
