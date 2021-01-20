@@ -414,7 +414,7 @@ Vue.component('page-content', {
             labAssignments: [
                 {
                     name: 'Intellij/Scala Tester Setup Help',
-                    handoutURL: 'https://hackmd.io/6K9NmQ0fSjOxH7AYeIYGnw',
+                    handoutURL: 'https://hackmd.io/6K9NmQ0fSjOxH7AYeIYGnw?view',
                     out: '01/20',
                     slidesName: 'Slides',
                     slidesURL: '',
