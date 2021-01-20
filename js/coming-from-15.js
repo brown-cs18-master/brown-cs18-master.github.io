@@ -243,7 +243,7 @@ comfortable using interfaces as types or with the difference between interfaces 
                     <p>Broadly speaking, CS15 students will be practicing using recursion to traverse recursively-defined datatypes, programming with
                     higher-order functions (e.g., maps and filters), programming without assignment statements, and testing code without print statements.
                     You will complete this module in Python (it's easier for us to show you some of this content, like higher-order functions, in Python than
-                    in Java, even if you don't already know Python). You may use any Python tool that you wish (as long as you are in Python version 3); the first homework assignment links to a simple/no-frills online environment that will suffice for this segment.</p>
+                    in Java, even if you don't already know Python). You may use any Python tool that you wish (as long as you are in Python version 3); the first homework assignment links to a simple/no-frills online environment that will suffice for this segment (repl.it is also good).</p>
                     
                     <p>The essence of the module lies in the required problem sets (in the "Assignment" column in the table below). There will be two homeworks, due on the same schedule as the main CS 18 track (but you do these assignments instead of those). Starting with homework 3, everyone will complete the
                     same assignments for the rest of the course.</p>
