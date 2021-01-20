@@ -372,7 +372,7 @@ Vue.component('page-content', {
                     name: 'Homework 0 (SRC)',
                     handoutURL: 'https://hackmd.io/@cs18-spring-2021/SyyvWxBJu',
                     out: '01/20',
-                    due: '01/22 11:59PM',
+                    due: '01/29 11:59PM',
                 },
                 {
                     name: 'Classes and Methods',
