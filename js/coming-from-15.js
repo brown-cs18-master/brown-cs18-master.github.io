@@ -1,5 +1,6 @@
 import pageClickCopy from './page-click-copy.js';
 import pageCountdownTime from './page-countdown-time.js';
+import dateTimeNoCountdown from './date-no-countdown.js';
 import pageLinks from './page-links.js';
 import pageTable from './page-table.js';
 import pageSectionTitle from './page-section.js';
@@ -21,7 +22,7 @@ const courseLecture = {
     },
     components: {
         'page-click-copy': pageClickCopy,
-        'page-countdown-time': pageCountdownTime,
+        'page-countdown-time': dateTimeNoCountdown,
         'page-links': pageLinks,
     },
     data: function () {
@@ -50,7 +51,15 @@ const courseLecture = {
     },
     template: `
         <tr>
-            <th scope="row">
+<th scope="row">
+                <page-countdown-time
+                name="deliver"
+                :time="outMoment"
+                :now="now"
+                >
+                </page-countdown-time>
+            </th>
+            <td>
                 <span>
                     {{index}}:
                 </span>
@@ -58,14 +67,6 @@ const courseLecture = {
                   :text="name"
                 >
                 </page-click-copy>
-            </th>
-            <td>
-                <page-countdown-time
-                  name="deliver"
-                  :time="outMoment"
-                  :now="now"
-                >
-                </page-countdown-time>
             </td>
             <td>
                 <page-links
