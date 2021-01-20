@@ -122,8 +122,8 @@ Vue.component('page-content', {
                     recordingURLs: [],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: ["Background Survey", "Hwk 0"],
-                    linksURLs: ["https://docs.google.com/forms/d/e/1FAIpQLSeeylnFpK4yO5uZq_itfvelDpvo0JaMZdKEv-AX4q2P8nAb3w/viewform?usp=sf_link", "https://hackmd.io/@cs18-spring-2021/SyyvWxBJu"]
+                    linksNames: ["Background Survey", "Hwk 0 (due 1/29)", "When2Meet"],
+                    linksURLs: ["https://docs.google.com/forms/d/e/1FAIpQLSeeylnFpK4yO5uZq_itfvelDpvo0JaMZdKEv-AX4q2P8nAb3w/viewform?usp=sf_link", "https://hackmd.io/@cs18-spring-2021/SyyvWxBJu","https://www.when2meet.com/?10768976-5BcqS"]
                 },
                 {
                     name: 'Writing and Testing Recursive Functions',
@@ -134,7 +134,7 @@ Vue.component('page-content', {
                     recordingURLs: [],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: ["hwk1: Functional Programming (due 1/29)"],
+                    linksNames: ["Hwk 1: Functional Programming (due 1/29)"],
                     linksURLs: ["https://hackmd.io/@cs18-spring-2021/SJ9sCt1yd"]
                 },
                 {
@@ -245,13 +245,12 @@ Vue.component('page-content', {
                     in Java, even if you don't already know Python). If you haven't used Python, we recommend using <a href="https://repl.it"><b>repl.it</b></a> as a 
                     no-frills online programming environment (you can use whatever tool you wish, though, as long as you work in Python version 3).</p>
                     
-                    <p>The essence of the module lies in the required problem sets [LINK]. Your goal is to complete (and submit your solutions to) those problems
-                    by the time the second homework comes in for the mainstream CS18 track (February 3rd). Starting with homework 3, everyone will complete the
+                    <p>The essence of the module lies in the required problem sets (in the "Assignment" column in the table below). There will be two homeworks, due on the same schedule as the main CS 18 track (but you do these assignments instead of those). Starting with homework 3, everyone will complete the
                     same assignments for the rest of the course.</p>
                     
                     <p>During the first week of class, we will identify a time slot for overview lectures on this content (at a different time than
-                    the normal 18 lectures). You are welcome to attend these lectures, or to just work through the material on your own (though if you
-                    come to the lectures, you'll give Kathi a chance to get to know you in a smaller setting). The resources below will guide you
+                    the normal 18 lectures). If you want to participate, fill in the When2Meet linked to the first row of the table. You are welcome to attend these lectures, or to just work through the material on your own (though if you
+                    come to the lectures, you'll give Kathi a chance to get to know you in a smaller setting). The contents of the readings column in the table will guide you
                     through the core content.</p>
                     
                     <p>The following table recommends a pacing guide for learning content towards your assignments.</p>
