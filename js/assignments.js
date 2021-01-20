@@ -27,11 +27,7 @@ const hiddenLink = {
     computed: {
         willHide: function () {
             if (this.hide === null) {
-                return (
-                    this.hide ||
-                    this.hideUntil === null ||
-                    this.hideUntil.isAfter(this.now)
-                );
+                return this.hide || this.hideUntil === null || this.hideUntil.isAfter(this.now);
             } else {
                 return this.hide;
             }
@@ -69,8 +65,7 @@ const homeworkAssignment = {
                 outMoment: this.parseTime(this.out),
                 dueMoment: this.due,
             };
-        }
-        else {
+        } else {
             return {
                 outMoment: this.parseTime(this.out),
                 dueMoment: this.parseTime(this.due),
@@ -134,7 +129,7 @@ const labAssignment = {
         handoutURL: String,
         out: String,
         now: Object,
-        slidesURL: String
+        slidesURL: String,
     },
     components: {
         'hidden-link': hiddenLink,
@@ -147,8 +142,7 @@ const labAssignment = {
                 outMoment: this.parseTime(this.out),
                 dueMoment: this.due,
             };
-        }
-        else {
+        } else {
             return {
                 outMoment: this.parseTime(this.out),
                 dueMoment: this.parseTime(this.due),
@@ -225,8 +219,7 @@ const projectAssignment = {
                 outMoment: this.parseTime(this.out),
                 dueMoment: this.due,
             };
-        }
-        else {
+        } else {
             return {
                 outMoment: this.parseTime(this.out),
                 dueMoment: this.parseTime(this.due),
@@ -302,8 +295,7 @@ const examAssignment = {
                 outMoment: this.parseTime(this.out),
                 dueMoment: this.due,
             };
-        }
-        else {
+        } else {
             return {
                 outMoment: this.parseTime(this.out),
                 dueMoment: this.parseTime(this.due),
@@ -377,8 +369,8 @@ Vue.component('page-content', {
         return {
             homeworkAssignments: [
                 {
-                    name: 'Self-Guided Practice (Optional)',
-                    handoutURL: '',
+                    name: 'Homework 0 (SRC)',
+                    handoutURL: 'https://hackmd.io/@cs18-spring-2021/SyyvWxBJu',
                     out: '01/20',
                     due: '01/22 11:59PM',
                 },
@@ -422,87 +414,87 @@ Vue.component('page-content', {
             labAssignments: [
                 {
                     name: 'Intellij/Scala Tester Setup Help',
-                    handoutURL: '',
+                    handoutURL: 'https://hackmd.io/6K9NmQ0fSjOxH7AYeIYGnw',
                     out: '01/20',
                     slidesName: 'Slides',
-                    slidesURL: ''
+                    slidesURL: '',
                 },
                 {
                     name: 'Object-Oriented Design; Icebreakers',
                     handoutURL: '',
                     out: '01/27',
                     slidesName: 'Slides',
-                    slidesURL: ''
+                    slidesURL: '',
                 },
                 {
                     name: 'For-While Loops; Oracle',
                     handoutURL: '',
                     out: '02/3 12pm',
                     slidesName: 'Slides',
-                    slidesURL: ''
+                    slidesURL: '',
                 },
                 {
                     name: 'Debugging',
                     handoutURL: '',
                     out: '02/10',
                     slidesName: 'Slides',
-                    slidesURL: ''
+                    slidesURL: '',
                 },
                 {
                     name: 'I/O with CSV Parsing; Exceptions',
                     handoutURL: '',
                     out: '02/17',
                     slidesName: 'Slides',
-                    slidesURL: ''
+                    slidesURL: '',
                 },
                 {
                     name: 'Regular Expressions',
                     handoutURL: '',
                     out: '02/24',
                     slidesName: 'Slides',
-                    slidesURL: ''
+                    slidesURL: '',
                 },
                 {
                     name: 'Sorting/Reduce Time-Space',
                     handoutURL: '',
                     out: '03/03',
                     slidesName: 'Slides',
-                    slidesURL: ''
+                    slidesURL: '',
                 },
                 {
                     name: 'Scala var/val, Exceptions',
                     handoutURL: '',
                     out: '03/10',
                     slidesName: 'Slides',
-                    slidesURL: ''
+                    slidesURL: '',
                 },
                 {
                     name: 'Understanding PageRank',
                     handoutURL: '',
                     out: '03/17',
                     slidesName: 'Slides',
-                    slidesURL: ''
+                    slidesURL: '',
                 },
                 {
                     name: 'Dynamic Programming',
                     handoutURL: '',
                     out: '03/24',
                     slidesName: 'Slides',
-                    slidesURL: ''
+                    slidesURL: '',
                 },
                 {
                     name: 'Understanding Dijkstra; Implementing Heaps',
                     handoutURL: '',
                     out: '03/31',
                     slidesName: 'Slides',
-                    slidesURL: ''
+                    slidesURL: '',
                 },
                 {
                     name: 'Garbage Collection',
                     handoutURL: '',
                     out: '04/07',
                     slidesName: 'Slides',
-                    slidesURL: ''
+                    slidesURL: '',
                 },
             ],
             projectAssignments: [
@@ -540,8 +532,8 @@ Vue.component('page-content', {
                 },
             ],
             now: moment(),
-            tableheads: ['assignment', 'out', 'due',],
-            labsTableheads: ['assignment', 'out', 'slides',],
+            tableheads: ['assignment', 'out', 'due'],
+            labsTableheads: ['assignment', 'out', 'slides'],
         };
     },
     created: function () {
