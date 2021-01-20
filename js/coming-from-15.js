@@ -51,7 +51,7 @@ const courseLecture = {
     },
     template: `
         <tr>
-<th scope="row">
+            <th scope="row">
                 <page-countdown-time
                 name="deliver"
                 :time="outMoment"
@@ -116,36 +116,32 @@ Vue.component('page-content', {
                 {
                     name: 'Course Overview (in main lecture); Python basics',
                     date: '01/20',
-                    noteNames: [],
-                    noteURLs: [],
+                    noteNames: ["Animals (Java)", "Animals (Python)"],
+                    noteURLs: ["../content/from15/IAnimal.java", "../content/from15/animals.py"],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: [],
-                    linksURLs: []
+                    linksNames: ["Background Survey", "Hwk 0"],
+                    linksURLs: ["https://docs.google.com/forms/d/e/1FAIpQLSeeylnFpK4yO5uZq_itfvelDpvo0JaMZdKEv-AX4q2P8nAb3w/viewform?usp=sf_link", "https://hackmd.io/@cs18-spring-2021/SyyvWxBJu"]
                 },
                 {
-                    name: 'Writing and Testing Functions',
+                    name: 'Writing and Testing Recursive Functions',
                     date: '01/22',
-                    noteNames: [],
-                    noteURLs: [
-
-                    ],
+                    noteNames: ["notes"],
+                    noteURLs: ["../content/from15/recursive_lists.py"],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: [],
-                    linksURLs: []
+                    linksNames: ["hwk1: Functional Programming (due 1/29)"],
+                    linksURLs: ["https://hackmd.io/@cs18-spring-2021/SJ9sCt1yd"]
                 },
                 {
                     name: 'Working with Map and Filter',
                     date: '01/25',
-                    noteNames: [],
-                    noteURLs: [
-
-                    ],
+                    noteNames: ["Using map and filter"],
+                    noteURLs: ["https://towardsdatascience.com/using-map-and-filter-in-python-ffdfa8b97520"],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
@@ -157,9 +153,7 @@ Vue.component('page-content', {
                     name: 'Defining and Traversing Recursive Datatypes',
                     date: '01/27',
                     noteNames: [],
-                    noteURLs: [
-
-                    ],
+                    noteURLs: [],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
@@ -171,9 +165,7 @@ Vue.component('page-content', {
                     name: 'Implement Lists (Functionally) -- Attend main CS18 lecture',
                     date: '01/29',
                     noteNames: [],
-                    noteURLs: [
-
-                    ],
+                    noteURLs: [],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
@@ -185,9 +177,7 @@ Vue.component('page-content', {
                     name: 'Justifying Program Runtimes',
                     date: '02/01',
                     noteNames: [],
-                    noteURLs: [
-
-                    ],
+                    noteURLs: [],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
@@ -196,12 +186,10 @@ Vue.component('page-content', {
                     linksURLs: []
                 },
                 {
-                    name: 'From here, attend regular CS18 lectures',
+                    name: 'From here, rejoin regular CS18 lectures',
                     date: '02/03',
                     noteNames: [],
-                    noteURLs: [
-
-                    ],
+                    noteURLs: [],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
@@ -213,12 +201,12 @@ Vue.component('page-content', {
             ],
             now: moment(),
             tableheads: [
-                'lecture #',
                 'date',
-                'notes',
+                'topic',
+                'readings',
                 'recording',
                 'practice',
-                'links'
+                'assignment'
             ],
         };
     },
