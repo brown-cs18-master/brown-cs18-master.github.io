@@ -128,8 +128,8 @@ Vue.component('page-content', {
                 {
                     name: 'OOP: Methods and Testing',
                     date: '01/22',
-                    noteNames: [],
-                    noteURLs: [],
+                    noteNames: ['Setup/Prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec02setup"],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
