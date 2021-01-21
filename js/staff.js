@@ -79,7 +79,7 @@ const staffCard = {
             </div>
             <div class="card-body d-flex flex-column justify-content-center">
                 <h5 class="card-title mb-0">
-                    {{ this.name }}
+                    {{ this.name }} ({{ cslogin }})
                 </h5>
                 <p class="card-text mb-0">
                     {{note}}
@@ -87,9 +87,6 @@ const staffCard = {
                 <p class="card-text mb-0">
                     {{pronouns}}
                 </p>  
-                <p class="card-text mb-0">
-                    {{cslogin}}
-                </p>
                 <p class="card-text mb-0">
                     {{hometown}}
                 </p>
@@ -167,7 +164,7 @@ Vue.component('page-content', {
                         cslogin: 'yzhuang6',
                         name: 'Carrie Zhuang',
                         personalPhotoURL: 'content/staff/carrie-blurb.png',
-                        themePhotoURL: 'content/staff/default.png',
+                        themePhotoURL: 'content/staff/carrie-zhuang.jpg',
                         theme: '',
                         pronouns: 'she/her/hers',
                         hometown: 'Shanghai',
@@ -201,7 +198,7 @@ Vue.component('page-content', {
                         theme: '',
                         pronouns: 'he/him/his',
                         hometown: 'Worcester, MA',
-                        blurb: ' Hi! I\m a junior studying CS.I\'m also a part of Brown Tang Soo Do. Outside of class, I love watching the Pats and all things American football, and playing Smash Bros!'
+                        blurb: ' Hi! I\m a junior studying CS. I\'m also a part of Brown Tang Soo Do. Outside of class, I love watching the Pats and all things American football, and playing Smash Bros!'
                     },
                 ],
                 [
@@ -429,7 +426,7 @@ Vue.component('page-content', {
                         cslogin: 'zzhu42',
                         name: 'Zachary Zhu',
                         personalPhotoURL: 'content/staff/zach-blurb.png',
-                        themePhotoURL: 'content/staff/default.png',
+                        themePhotoURL: 'content/staff/zachary-zhu.jpg',
                         theme: '',
                         pronouns: 'he/him/his',
                         hometown: 'Weston, MA',
