@@ -377,7 +377,7 @@ Vue.component('page-content', {
                 {
                     name: 'Classes and Methods',
                     handoutURL: 'https://hackmd.io/NCtA4l7WTN6b4vGMsU0djA?view',
-                    out: '01/21',
+                    out: '01/22',
                     due: '01/29 11:59PM',
                 },
                 {
