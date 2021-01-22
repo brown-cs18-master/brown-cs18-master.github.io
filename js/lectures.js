@@ -122,14 +122,14 @@ Vue.component('page-content', {
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b991d274-095d-4d97-bb93-acb6011a6642"],
                     practiceNames: ["Practice Probs"],
                     practiceURLs: ["content/practice/01classes.pdf"],
-		    linksNames: ["Background Survey", "Hwk 0 (due 1/29)"],
+                    linksNames: ["Background Survey", "Hwk 0 (due 1/29)"],
                     linksURLs: ["https://docs.google.com/forms/d/e/1FAIpQLSeeylnFpK4yO5uZq_itfvelDpvo0JaMZdKEv-AX4q2P8nAb3w/viewform?usp=sf_link", "https://hackmd.io/@cs18-spring-2021/SyyvWxBJu"]
                 },
                 {
                     name: 'OOP: Methods and Testing',
                     date: '01/22',
                     noteNames: ['Setup/Prep', 'notes'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec02setup", 'content/lectures/02methods/02methods.pdf"],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec02setup", "content/lectures/02methods/02methods.pdf"],
                     recordingNames: ['video'],
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=62fa1b56-4c9f-4890-8f52-acb8011aab6d"],
                     practiceNames: ["Practice Probs"],
