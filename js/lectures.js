@@ -132,8 +132,8 @@ Vue.component('page-content', {
                     noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec02setup"],
                     recordingNames: [],
                     recordingURLs: [],
-                    practiceNames: [],
-                    practiceURLs: [],
+                    practiceNames: ["Practice Probs"],
+                    practiceURLs: ["content/practice/02methods.pdf"],
                     linksNames: [],
                     linksURLs: []
                 },
