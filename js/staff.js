@@ -11,11 +11,11 @@ const staffCard = {
         blurb: String,
         personalPhotoURL: {
             type: String,
-            default: 'content/staff/default.png',
+            default: 'content/staff/default.jpg',
         },
         themePhotoURL: {
             type: String,
-            default: 'content/staff/default.png',
+            default: 'content/staff/default.jpg',
         },
         theme: String,
         photoStyle: {
@@ -245,8 +245,8 @@ Vue.component('page-content', {
                     {
                         cslogin: 'achang65',
                         name: '',
-                        personalPhotoURL: 'content/staff/default.png',
-                        themePhotoURL: 'content/staff/default.png',
+                        personalPhotoURL: 'content/staff/default.jpg',
+                        themePhotoURL: 'content/staff/default.jpg',
                         theme: '',
                         pronouns: '',
                         hometown: '',
@@ -266,7 +266,7 @@ Vue.component('page-content', {
                         cslogin: 'elerena',
                         name: 'Erick Lerena',
                         personalPhotoURL: 'content/staff/erick-blurb.png',
-                        themePhotoURL: 'content/staff/default.png',
+                        themePhotoURL: 'content/staff/default.jpg',
                         theme: '',
                         pronouns: 'he/him/his',
                         hometown: 'Boyle Heights',
@@ -385,8 +385,8 @@ Vue.component('page-content', {
                     {
                         cslogin: 'pmontei1',
                         name: '',
-                        personalPhotoURL: 'content/staff/default.png',
-                        themePhotoURL: 'content/staff/default.png',
+                        personalPhotoURL: 'content/staff/default.jpg',
+                        themePhotoURL: 'content/staff/default.jpg',
                         theme: '',
                         pronouns: '',
                         hometown: '',
@@ -435,8 +435,8 @@ Vue.component('page-content', {
                     {
                         cslogin: 'zzhou65',
                         name: '',
-                        personalPhotoURL: 'content/staff/default.png',
-                        themePhotoURL: 'content/staff/default.png',
+                        personalPhotoURL: 'content/staff/default.jpg',
+                        themePhotoURL: 'content/staff/default.jpg',
                         theme: '',
                         pronouns: '',
                         hometown: '',
@@ -447,7 +447,7 @@ Vue.component('page-content', {
                     {
                         cslogin: 'gdahl',
                         name: '',
-                        personalPhotoURL: 'content/staff/default.png',
+                        personalPhotoURL: 'content/staff/default.jpg',
                         themePhotoURL: 'content/staff/gregory-dahl.jpeg',
                         theme: '',
                         pronouns: '',
@@ -456,13 +456,13 @@ Vue.component('page-content', {
                     },
                     {
                         cslogin: 'skothar7',
-                        name: '',
-                        personalPhotoURL: 'content/staff/default.png',
-                        themePhotoURL: 'content/staff/default.png',
+                        name: 'Suyash Kothari',
+                        personalPhotoURL: 'content/staff/default.jpg',
+                        themePhotoURL: 'content/staff/suyash-kothari.jpg',
                         theme: '',
-                        pronouns: '',
-                        hometown: '',
-                        blurb: ''
+                        pronouns: 'he/him/his',
+                        hometown: 'Bangkok, Thailand',
+                        blurb: 'Hey! I\'m a sophomore from Bangkok, Thailand and Jaipur, India concentrating in CS and IAPA. Outside class, I\'m involved with the Effective Altruism community and UCS. I\'m also probably watching Better Call Saul and eating a bowl of Tom Yum MAMA noodles right now. '
                     },
                 ],
             ],
