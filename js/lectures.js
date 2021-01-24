@@ -140,10 +140,8 @@ Vue.component('page-content', {
                 {
                     name: 'OOP: Interfaces and Types',
                     date: '01/25',
-                    noteNames: [],
-                    noteURLs: [
-
-                    ],
+		    noteNames: ['Setup/Prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec03setup"],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
