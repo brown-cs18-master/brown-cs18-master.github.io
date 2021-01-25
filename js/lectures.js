@@ -140,12 +140,12 @@ Vue.component('page-content', {
                 {
                     name: 'OOP: Interfaces and Types',
                     date: '01/25',
-		    noteNames: ['Setup/Prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec03setup"],
-                    recordingNames: [],
-                    recordingURLs: [],
-                    practiceNames: [],
-                    practiceURLs: [],
+		    noteNames: ['Setup/Prep', 'notes'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec03setup","content/lectures/03interfaces/03interfaces.pdf"],
+                    recordingNames: ['video'],
+                    recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=976d94a7-1d98-4fe3-ae58-acbb011a7369"],
+                    practiceNames: ["Practice Probs"],
+                    practiceURLs: ["content/practice/03interfaces.pdf"],
                     linksNames: [],
                     linksURLs: []
                 },
