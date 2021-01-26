@@ -104,7 +104,7 @@ const essentialLinksSection = {
                   <li><page-link title="ta hours" href="https://brown-cs18-master.github.io/hours.html" text="Find TA/Professor Hours on the Course Calendar"></page-link></li>
                   <li><page-link title="signmeup" href="https://signmeup.cs.brown.edu/" text="Enter the office hours line on SignMeUp"></page-link></li>
                   <li><page-link title="gradescope" href="https://www.gradescope.com/courses/224988" text="Submit Homework on Gradescope"></page-link></li>
-                  <li><page-link title="lab switch" href="https://docs.google.com/forms/d/e/1FAIpQLSdIZ53brbaNhcA9EnhaX3_rM8rjAFwT7ae4AmzhInaLEJi-4w/viewform?usp=sf_link" text="Request a one-time lab switch by filling out the lab-switch form"></page-link></li>
+                  <li><page-link title="lab switch" href="https://forms.gle/uuCcrgc78TPRKBFEA" text="Make a permanent or temporary lab switch by filling out the lab-switch form"></page-link></li>
                   <li><page-link title="prismia" href="https://prismia.chat/projects/e4d25559-76da-4471-a576-88ca430da10a/join" text="Ask questions and participate in class discussions via Prismia chat"></page-link></li>
                   <li><page-link title="extension request" href="mailto:kathryn_fisler@brown.edu" text="Contact Professor Fisler/Kathi regarding emergencies, personal situations, or extensions"></page-link></li>
                   <li><page-link title="late day" href="https://hackmd.io/@cs18-spring-2021/r1GSAemJd" text="Refer to the course missive for the late day policy"></page-link></li>
