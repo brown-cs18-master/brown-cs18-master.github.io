@@ -97,7 +97,6 @@ const essentialLinksSection = {
               :style="{ color: curPageThemeColor, 'font-size': 'larger' }"
             >
                 <ul>
-                  <li><page-link title="lab signup form" href="https://forms.gle/tdFAghwdPrfSC28S6" text="Sign-Up For Lab Section"></page-link></li>
                   <li><page-link title="piazza" href="https://piazza.com/brown/spring2021/spring2021csci0180/home" text="Ask questions on Piazza"></page-link></li>
                   <li><page-link title="zoom link" href="https://canvas.brown.edu/courses/1083823" text="Zoom link"></page-link></li>
                   <li><page-link title="admin questions" href="mailto:cs0180headtas@lists.brown.edu" text="Raise administrative/HTA questions via email"></page-link></li>
