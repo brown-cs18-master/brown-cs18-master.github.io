@@ -30,7 +30,7 @@ const pageFooter = {
     data: function () {
         return {
             TAEmail: 'CS018tas@lists.brown.edu',
-            HTAEmail: 'CS018headtas@lists.brown.edu',
+            HTAEmail: 'CS0180headtas@lists.brown.edu',
         };
     },
     template: `
