@@ -420,11 +420,12 @@ Vue.component('page-content', {
                     slidesURL: '',
                 },
                 {
-                    name: 'Object-Oriented Design; Icebreakers',
-                    handoutURL: '',
+                    name: 'Object-Oriented Design',
+                    handoutURL: 'https://drive.google.com/file/d/10nRM7kAx3DgT5Xme2EbxnzGRWfAeLEA_/view?usp=sharing',
                     out: '01/27',
                     slidesName: 'Slides',
-                    slidesURL: '',
+                    slidesURL:
+                        'https://docs.google.com/presentation/d/1qS3hi2e0VtVlmBx1V_eQD19vRdqZF_UC7RP1acvi8V0/edit?usp=sharing',
                 },
                 {
                     name: 'For-While Loops; Oracle',
