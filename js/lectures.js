@@ -154,6 +154,18 @@ Vue.component('page-content', {
                     date: '01/27',
                     noteNames: ['Setup/Prep','notes'],
                     noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec04setup","content/lectures/04absclasses/04absclasses.pdf"],
+                    recordingNames: ['video'],
+                    recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73b08402-0449-4830-94ad-acbd011b9da7"],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
+                {
+                    name: 'Implement Lists (Functionally)',
+                    date: '01/29',
+                    noteNames: ["Setup/Prep"],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec05setup"],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
@@ -161,20 +173,6 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Implement Lists (Functionally)',
-                //     date: '01/29',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
                 // {
                 //     name: 'Java Lists and Field Mutation; Equality',
                 //     date: '02/01',

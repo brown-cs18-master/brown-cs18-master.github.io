@@ -150,12 +150,12 @@ Vue.component('page-content', {
                     linksURLs: []
                 },
                 {
-                    name: 'Defining and Traversing Recursive Datatypes',
+                    name: 'Defining and Traversing Trees',
                     date: '01/27',
                     noteNames: [],
                     noteURLs: [],
-                    recordingNames: [],
-                    recordingURLs: [],
+                    recordingNames: ['video'],
+                    recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ea354af7-57dd-447d-8f83-acbd00feff58"],
                     practiceNames: [],
                     practiceURLs: [],
                     linksNames: [],
