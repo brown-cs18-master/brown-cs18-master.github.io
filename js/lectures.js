@@ -152,8 +152,8 @@ Vue.component('page-content', {
                 {
                     name: 'OOP: Abstract Classes and Interfaces',
                     date: '01/27',
-                    noteNames: ['Setup/Prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec04setup"],
+                    noteNames: ['Setup/Prep','notes'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec04setup","content/lectures/04absclasses/04absclasses.pdf"],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
