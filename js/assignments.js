@@ -566,6 +566,7 @@ Vue.component('page-content', {
                 >
                     <p>
                         Homeworks are due on the Due Date at Anywhere-On-Earth time. They can be submitted through <a href="https://www.gradescope.com/courses/224988"><b>Gradescope</b></a>.
+                        See our <a href="https://hackmd.io/jC-SEMn_RpiGqMH_EhsDMw?view"><b>Gradescope Guide</b></a> for more info.
                     </p>
                     <page-table
                       :tableheads="tableheads"
