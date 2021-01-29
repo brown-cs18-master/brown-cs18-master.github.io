@@ -164,8 +164,8 @@ Vue.component('page-content', {
                 {
                     name: 'Implement Lists (Functionally)',
                     date: '01/29',
-                    noteNames: ["Setup/Prep"],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec05setup"],
+                    noteNames: ["Setup/Prep", 'notes'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec05setup", "content/lectures/05listsfunctional/05listsfunctional.pdf"],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
