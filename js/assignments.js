@@ -382,8 +382,8 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Interfaces, Lists, and Testing for Mutation',
-                    handoutURL: '',
-                    out: '01/29',
+                    handoutURL: 'https://hackmd.io/MwiXi0dpRVqJ5wscNd2jTQ?view',
+                    out: '01/29 5:00PM',
                     due: '02/05 11:59PM',
                 },
                 {
