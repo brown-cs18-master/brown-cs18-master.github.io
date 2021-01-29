@@ -158,8 +158,8 @@ Vue.component('page-content', {
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=73b08402-0449-4830-94ad-acbd011b9da7"],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: [],
-                    linksURLs: []
+                    linksNames: ['Java Unit Recap'],
+                    linksURLs: ["https://hackmd.io/@cs18-spring-2021/java-unit-recap"]
                 },
                 {
                     name: 'Implement Lists (Functionally)',
