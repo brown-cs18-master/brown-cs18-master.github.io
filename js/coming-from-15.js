@@ -170,7 +170,7 @@ Vue.component('page-content', {
                     recordingURLs: [],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: ["CS15 hwk 2"],
+                    linksNames: ["Hwk 2: Recursion and Trees (due 2/5)"],
                     linksURLs: ["https://hackmd.io/@cs18-spring-2021/r1lyQEGlO"]
                 },
                 {
