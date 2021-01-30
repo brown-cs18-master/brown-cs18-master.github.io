@@ -170,8 +170,8 @@ Vue.component('page-content', {
                     recordingURLs: [],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: [],
-                    linksURLs: []
+                    linksNames: ["CS15 hwk 2"],
+                    linksURLs: ["https://hackmd.io/@cs18-spring-2021/r1lyQEGlO"]
                 },
                 {
                     name: 'Justifying Program Runtimes',
