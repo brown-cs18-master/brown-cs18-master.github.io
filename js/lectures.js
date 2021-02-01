@@ -176,8 +176,8 @@ Vue.component('page-content', {
                 {
                     name: 'Java Lists and Field Mutation; Equality',
                     date: '02/01',
-                    noteNames: ['Setup/Prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec06setup"],
+                    noteNames: ['Setup/Prep', 'notes'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec06setup", "content/lectures/06fieldmutation/06fieldmutation"],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
