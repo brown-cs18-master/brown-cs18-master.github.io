@@ -185,20 +185,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Implementing Mutable Lists',
-                //     date: '02/03',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Implementing Mutable Lists',
+                    date: '02/03',
+                    noteNames: ['Setup/Prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec07setup"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Mutable and Immutable Lists',
                 //     date: '02/05',
