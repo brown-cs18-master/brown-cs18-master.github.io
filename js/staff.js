@@ -384,13 +384,13 @@ Vue.component('page-content', {
                     },
                     {
                         cslogin: 'pmontei1',
-                        name: '',
-                        personalPhotoURL: 'content/staff/default.jpg',
-                        themePhotoURL: 'content/staff/default.jpg',
+                        name: 'Pedro Monteiro Borges',
+                        personalPhotoURL: 'content/staff/pedro.png',
+                        themePhotoURL: 'content/staff/pedro.png',
                         theme: '',
-                        pronouns: '',
-                        hometown: '',
-                        blurb: ''
+                        pronouns: 'he/him',
+                        hometown: 'Boston, MA',
+                        blurb: 'Hey guys, I\'m a sophomore studying CS, and I\'m really excited to TA CS18! Whenever I have free time, I like to study Japanese, keep up with the NBA, and play Among Us with my friends!'
                     },
                     {
                         cslogin: 'pzubiago',
