@@ -174,7 +174,7 @@ Vue.component('page-content', {
                     linksURLs: []
                 },
                 {
-                    name: 'Java Lists and Field Mutation; Equality',
+                    name: 'Field Mutation and Equality',
                     date: '02/01',
                     noteNames: ['Setup/Prep', 'notes'],
                     noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec06setup", "content/lectures/06fieldmutation/06fieldmutation.pdf"],
@@ -186,7 +186,7 @@ Vue.component('page-content', {
                     linksURLs: []
                 },
                 {
-                    name: 'Implementing Mutable Lists',
+                    name: 'Mutable Lists, Conceptually',
                     date: '02/03',
                     noteNames: ['Setup/Prep', 'notes'],
                     noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec07setup", "content/lectures/07listsimperative/07listsimperative.pdf"],
@@ -197,20 +197,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Mutable and Immutable Lists',
-                //     date: '02/05',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Implementing Mutable Lists',
+                    date: '02/05',
+                    noteNames: ["Setup/Prep],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec08setup"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Lists in Memory',
                 //     date: '02/08',
