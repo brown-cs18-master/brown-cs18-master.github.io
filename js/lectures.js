@@ -188,8 +188,8 @@ Vue.component('page-content', {
                 {
                     name: 'Implementing Mutable Lists',
                     date: '02/03',
-                    noteNames: ['Setup/Prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec07setup"],
+                    noteNames: ['Setup/Prep', 'notes'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec07setup", "content/lectures/07listsimperative/07listsimperative.pdf"],
                     recordingNames: ['video'],
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a4ba4119-9033-489a-b55c-acc4011d5ee6"],
                     practiceNames: [],
