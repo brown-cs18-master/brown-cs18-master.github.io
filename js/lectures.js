@@ -202,12 +202,12 @@ Vue.component('page-content', {
                     date: '02/05',
                     noteNames: ["Setup/Prep"],
                     noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec08setup"],
-                    recordingNames: [],
-                    recordingURLs: [],
+                    recordingNames: ['video'],
+                    recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bf4c93ba-2620-4f5d-a99d-acc6011ee829"],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: [],
-                    linksURLs: []
+                    linksNames: ['code after lecture'],
+                    linksURLs: ['content/lectures/08listsimplementation/lec08.zip"]
                 },
                 // {
                 //     name: 'Lists in Memory',
