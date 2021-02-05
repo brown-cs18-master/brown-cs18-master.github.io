@@ -207,7 +207,7 @@ Vue.component('page-content', {
                     practiceNames: [],
                     practiceURLs: [],
                     linksNames: ['code after lecture'],
-                    linksURLs: ['content/lectures/08listsimplementation/lec08.zip"]
+                    linksURLs: ['content/lectures/08listsimplementation/lec08.zip']
                 },
                 // {
                 //     name: 'Lists in Memory',
