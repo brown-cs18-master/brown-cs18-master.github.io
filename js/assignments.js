@@ -388,8 +388,8 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Doubly-Linked Lists',
-                    handoutURL: '',
-                    out: '02/05',
+                    handoutURL: 'https://hackmd.io/lFgRbAkaRRSzqPTzaeL7cg?view',
+                    out: '02/05 11:59PM',
                     due: '02/12 11:59PM',
                 },
                 {
