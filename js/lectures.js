@@ -209,20 +209,18 @@ Vue.component('page-content', {
                     linksNames: ['code after lecture'],
                     linksURLs: ['content/lectures/08listsimplementation/lec08.zip']
                 },
-                // {
-                //     name: 'Lists in Memory',
-                //     date: '02/08',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Optimizing List Implementations',
+                    date: '02/08',
+                    noteNames: ['Setup/Prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec09setup"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Arrays - faster lists?',
                 //     date: '02/10',
