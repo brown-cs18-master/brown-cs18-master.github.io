@@ -445,10 +445,11 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Debugging',
-                    handoutURL: '',
+                    handoutURL: 'https://drive.google.com/file/d/15Q9OGpc-wm8rxNl2dO_PXJmX2p_2xYhw/view?usp=sharing',
                     out: '02/10',
                     slidesName: 'Slides',
-                    slidesURL: '',
+                    slidesURL:
+                        'https://docs.google.com/presentation/d/1IICIulMGBtEUfzY_p9whrkmzA3yanZDpU0JBc6dk0TU/edit?usp=sharing',
                 },
                 {
                     name: 'I/O with CSV Parsing; Exceptions',
