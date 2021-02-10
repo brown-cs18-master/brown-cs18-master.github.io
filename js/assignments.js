@@ -542,7 +542,7 @@ Vue.component('page-content', {
                     due: '',
                 },
             ],
-            now: moment(),
+            now: moment().tz('America/New_York'),
             tableheads: ['assignment', 'out', 'due'],
             labsTableheads: ['assignment', 'out', 'slides'],
         };
