@@ -151,11 +151,7 @@ const labAssignment = {
     },
     methods: {
         parseTime: function (timeStr) {
-            let moment = require('moment');
-            require('moment-timezone');
-            moment.tz.setDefault('America/New_York');
             let timeObj = moment(timeStr, ['MM/DD', 'YYYY/MM/DD'], true);
-
             if (timeObj.isValid()) {
                 timeObj.hour(12);
                 timeObj.minute(0);
