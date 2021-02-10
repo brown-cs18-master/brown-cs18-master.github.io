@@ -430,7 +430,7 @@ Vue.component('page-content', {
                 {
                     name: 'For-While Loops (Lab 2 version A)',
                     handoutURL: 'https://drive.google.com/file/d/1gp6eizw5rmt_ffWt9dKuHziZO4wzMcnt/view?usp=sharing',
-                    out: '02/03',
+                    out: '02/3 12pm',
                     slidesName: 'Slides',
                     slidesURL:
                         'https://docs.google.com/presentation/d/17pX5pz42gI7lvWbjG3F6k29I3SV0fDnQOWtOV1eu3UU/edit?usp=sharing',
@@ -438,7 +438,7 @@ Vue.component('page-content', {
                 {
                     name: 'Oracle (Lab 2 version B)',
                     handoutURL: 'https://drive.google.com/file/d/1PRkBgKPt1BYIQY4qXAups4YlM_J14Vh5/view?usp=sharing',
-                    out: '02/03',
+                    out: '02/3 12pm',
                     slidesName: 'Slides',
                     slidesURL:
                         'https://docs.google.com/presentation/d/17pX5pz42gI7lvWbjG3F6k29I3SV0fDnQOWtOV1eu3UU/edit?usp=sharing',
