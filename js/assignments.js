@@ -151,7 +151,7 @@ const labAssignment = {
     },
     methods: {
         parseTime: function (timeStr) {
-            let timeObj = moment(timeStr, ['MM/DD', 'YYYY/MM/DD'], true).tz('America/New_York');
+            let timeObj = moment(timeStr, ['MM/DD', 'YYYY/MM/DD'], true);
             if (timeObj.isValid()) {
                 timeObj.hour(12);
                 timeObj.minute(0);
@@ -542,7 +542,7 @@ Vue.component('page-content', {
                     due: '',
                 },
             ],
-            now: moment().tz('America/New_York'),
+            now: moment(),
             tableheads: ['assignment', 'out', 'due'],
             labsTableheads: ['assignment', 'out', 'slides'],
         };
