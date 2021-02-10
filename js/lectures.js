@@ -221,20 +221,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Arrays - faster lists?',
-                //     date: '02/10',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Arrays: More-Efficient Lists?',
+                    date: '02/10',
+                    noteNames: ['Setup/Prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec10setup"],
+                    recordingNames: ['video'],
+                    recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2cb33f00-1602-449b-ba05-accb011bb34f"],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Dynamic Arrays',
                 //     date: '02/12',
