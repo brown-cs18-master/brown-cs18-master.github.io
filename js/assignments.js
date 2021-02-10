@@ -151,7 +151,7 @@ const labAssignment = {
     },
     methods: {
         parseTime: function (timeStr) {
-            let timeObj = moment(timeStr, ['MM/DD', 'YYYY/MM/DD'], true);
+            let timeObj = moment(timeStr, ['MM/DD', 'YYYY/MM/DD'], true).tz('America/New_York');
             if (timeObj.isValid()) {
                 timeObj.hour(12);
                 timeObj.minute(0);
