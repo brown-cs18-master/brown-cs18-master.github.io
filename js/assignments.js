@@ -151,20 +151,24 @@ const labAssignment = {
     },
     methods: {
         parseTime: function (timeStr) {
+            let moment = require('moment');
+            require('moment-timezone');
+            moment.tz.setDefault('America/New_York');
             let timeObj = moment(timeStr, ['MM/DD', 'YYYY/MM/DD'], true);
-            // if (timeObj.isValid()) {
-            //     timeObj.hour(12);
-            //     timeObj.minute(0);
-            // } else {
-            //     timeObj = moment(timeStr, [
-            //         'MM/DD HH:mm',
-            //         'MM/DD hh:mm a',
-            //         'MM/DD hh a',
-            //         'YYYY/MM/DD HH:mm',
-            //         'YYYY/MM/DD hh:mm a',
-            //         'YYYY/MM/DD hh a',
-            //     ]);
-            // }
+
+            if (timeObj.isValid()) {
+                timeObj.hour(12);
+                timeObj.minute(0);
+            } else {
+                timeObj = moment(timeStr, [
+                    'MM/DD HH:mm',
+                    'MM/DD hh:mm a',
+                    'MM/DD hh a',
+                    'YYYY/MM/DD HH:mm',
+                    'YYYY/MM/DD hh:mm a',
+                    'YYYY/MM/DD hh a',
+                ]);
+            }
             return timeObj;
         },
     },
@@ -430,7 +434,7 @@ Vue.component('page-content', {
                 {
                     name: 'For-While Loops (Lab 2 version A)',
                     handoutURL: 'https://drive.google.com/file/d/1gp6eizw5rmt_ffWt9dKuHziZO4wzMcnt/view?usp=sharing',
-                    out: '02/3',
+                    out: '02/03',
                     slidesName: 'Slides',
                     slidesURL:
                         'https://docs.google.com/presentation/d/17pX5pz42gI7lvWbjG3F6k29I3SV0fDnQOWtOV1eu3UU/edit?usp=sharing',
@@ -438,7 +442,7 @@ Vue.component('page-content', {
                 {
                     name: 'Oracle (Lab 2 version B)',
                     handoutURL: 'https://drive.google.com/file/d/1PRkBgKPt1BYIQY4qXAups4YlM_J14Vh5/view?usp=sharing',
-                    out: '02/3',
+                    out: '02/03',
                     slidesName: 'Slides',
                     slidesURL:
                         'https://docs.google.com/presentation/d/17pX5pz42gI7lvWbjG3F6k29I3SV0fDnQOWtOV1eu3UU/edit?usp=sharing',
