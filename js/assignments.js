@@ -2,6 +2,7 @@ import pageCountdownTime from './page-countdown-time.js';
 import pageLink from './page-link.js';
 import pageSectionTitle from './page-section.js';
 import pageTable from './page-table.js';
+moment.tz.setDefault('America/New_York');
 
 const hiddenLink = {
     props: {
