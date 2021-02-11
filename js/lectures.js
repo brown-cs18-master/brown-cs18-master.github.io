@@ -212,14 +212,14 @@ Vue.component('page-content', {
                 {
                     name: 'Optimizing List Implementations',
                     date: '02/08',
-                    noteNames: ['Setup/Prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec09setup"],
+                    noteNames: ['Setup/Prep','notes'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec09setup", "content/lectures/09listsoptimize/09listsoptimize.pdf"],
                     recordingNames: ['video'],
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4c628aab-06a0-455f-985c-acc9011d180c"],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: [],
-                    linksURLs: []
+                    linksNames: ['lec09.zip (code)'],
+                    linksURLs: ['content/lectures/09listsoptimize/lec09.zip']
                 },
                 {
                     name: 'Arrays: More-Efficient Lists?',
