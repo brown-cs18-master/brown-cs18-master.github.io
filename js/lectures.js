@@ -233,20 +233,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Dynamic Arrays',
-                //     date: '02/12',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Dynamic Arrays',
+                    date: '02/12',
+                    noteNames: ['Setup/Prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec11setup"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'NO CLASS',
                 //     date: '02/15',
