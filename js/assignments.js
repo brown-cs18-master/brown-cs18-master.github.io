@@ -511,7 +511,7 @@ Vue.component('page-content', {
             projectAssignments: [
                 {
                     name: 'Recommender',
-                    handoutURL: '',
+                    handoutURL: 'https://hackmd.io/@cs18-spring-2021/SkTnQBsRv',
                     out: '02/12',
                     due: '02/26 11:59PM',
                 },
