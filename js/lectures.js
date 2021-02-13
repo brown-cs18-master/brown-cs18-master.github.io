@@ -236,8 +236,21 @@ Vue.component('page-content', {
                 {
                     name: 'Dynamic Arrays',
                     date: '02/12',
-                    noteNames: ['Setup/Prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec11setup"],
+                    noteNames: ['Setup/Prep', 'notes'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec11setup",
+			      "content/lectures/11dynarrays/11dynarrays.pdf"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: ['final code'],
+                    linksURLs: [ "content/lectures/11dynarrays/lec11.zip"]
+                },
+                {
+                    name: 'NO CLASS (long weekend)',
+                    date: '02/15',
+                    noteNames: [],
+                    noteURLs: [],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
@@ -245,20 +258,6 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'NO CLASS',
-                //     date: '02/15',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
                 // {
                 //     name: 'Iterators - an application of interfaces',
                 //     date: '02/17',
