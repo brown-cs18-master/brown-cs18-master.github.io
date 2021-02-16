@@ -127,6 +127,7 @@ const labAssignment = {
         name: String,
         slidesName: String,
         handoutURL: String,
+        out: String,
         now: Object,
         slidesURL: String,
     },
@@ -453,7 +454,7 @@ Vue.component('page-content', {
                 {
                     name: 'I/O with CSV Parsing; Exceptions',
                     handoutURL: 'https://drive.google.com/file/d/1eOUwJIpRB-Gc3X41l0VuT0OXvg15OtWl/view?usp=sharing',
-                    out: '02/17 9:00am',
+                    out: '02/17',
                     slidesName: 'Slides',
                     slidesURL:
                         'https://docs.google.com/presentation/d/1XokMXiMb2g0-kBYDOn1Xi5KHDSXeMPA_9BHetE1z7pw/edit?usp=sharing',
