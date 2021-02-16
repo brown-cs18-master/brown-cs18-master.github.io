@@ -258,20 +258,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Iterators - an application of interfaces',
-                //     date: '02/17',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Iterators - enabling for-loops',
+                    date: '02/17',
+                    noteNames: ['Setup/Prep'],
+                    noteURLs: ['https://hackmd.io/@cs18-spring-2021/lec12setup'],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'System Design/Intro to Threats',
                 //     date: '02/19',
