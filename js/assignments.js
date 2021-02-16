@@ -127,9 +127,10 @@ const labAssignment = {
         name: String,
         slidesName: String,
         handoutURL: String,
-        out: String,
-        now: Object,
         slidesURL: String,
+        out: String,
+        due: String,
+        now: Object,
     },
     components: {
         'hidden-link': hiddenLink,
@@ -153,7 +154,7 @@ const labAssignment = {
         parseTime: function (timeStr) {
             let timeObj = moment(timeStr, ['MM/DD', 'YYYY/MM/DD'], true);
             if (timeObj.isValid()) {
-                timeObj.hour(12);
+                timeObj.hour(9);
                 timeObj.minute(0);
             } else {
                 timeObj = moment(timeStr, [
@@ -453,10 +454,11 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'I/O with CSV Parsing; Exceptions',
-                    handoutURL: '',
+                    handoutURL: 'https://drive.google.com/file/d/1eOUwJIpRB-Gc3X41l0VuT0OXvg15OtWl/view?usp=sharing',
                     out: '02/17',
                     slidesName: 'Slides',
-                    slidesURL: '',
+                    slidesURL:
+                        'https://docs.google.com/presentation/d/1XokMXiMb2g0-kBYDOn1Xi5KHDSXeMPA_9BHetE1z7pw/edit?usp=sharing',
                 },
                 {
                     name: 'Regular Expressions',
