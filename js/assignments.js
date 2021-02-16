@@ -127,9 +127,10 @@ const labAssignment = {
         name: String,
         slidesName: String,
         handoutURL: String,
-        out: String,
-        now: Object,
         slidesURL: String,
+        out: String,
+        due: String,
+        now: Object,
     },
     components: {
         'hidden-link': hiddenLink,
