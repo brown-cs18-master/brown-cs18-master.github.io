@@ -261,14 +261,14 @@ Vue.component('page-content', {
                 {
                     name: 'Iterators - enabling for-loops',
                     date: '02/17',
-                    noteNames: ['Setup/Prep'],
-                    noteURLs: ['https://hackmd.io/@cs18-spring-2021/lec12setup'],
-                    recordingNames: [],
-                    recordingURLs: [],
+                    noteNames: ['Setup/Prep','notes'],
+                    noteURLs: ['https://hackmd.io/@cs18-spring-2021/lec12setup','content/lectures/12iterators/12iterators.pdf'],
+                    recordingNames: ['video'],
+                    recordingURLs: ['https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f5dacf0-6d11-4e54-9aa6-acd2011b1ea4'],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: [],
-                    linksURLs: []
+                    linksNames: ['final code'],
+                    linksURLs: ['content/lectures/12iterators/lec12.zip']
                 },
                 // {
                 //     name: 'System Design/Intro to Threats',
