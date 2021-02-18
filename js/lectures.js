@@ -270,20 +270,18 @@ Vue.component('page-content', {
                     linksNames: ['final code'],
                     linksURLs: ['content/lectures/12iterators/lec12.zip']
                 },
-                // {
-                //     name: 'System Design/Intro to Threats',
-                //     date: '02/19',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'System Design: Access and Encapsulation',
+                    date: '02/19',
+                    noteNames: ['Setup/prep'],
+                    noteURLs: ['https://hackmd.io/@cs18-spring-2021/lec13setup'],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'OOP: Access Modifiers',
                 //     date: '02/22',
