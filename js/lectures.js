@@ -246,20 +246,20 @@ Vue.component('page-content', {
                     linksNames: ['final code'],
                     linksURLs: [ "content/lectures/11dynarrays/lec11.zip"]
                 },
+                //{
+                //    name: 'NO CLASS (long weekend)',
+                //    date: '02/15',
+                //    noteNames: [],
+                //    noteURLs: [],
+                //    recordingNames: [],
+                //    recordingURLs: [],
+                //    practiceNames: [],
+                //    practiceURLs: [],
+                //    linksNames: [],
+                //    linksURLs: []
+                // },
                 {
-                    name: 'NO CLASS (long weekend)',
-                    date: '02/15',
-                    noteNames: [],
-                    noteURLs: [],
-                    recordingNames: [],
-                    recordingURLs: [],
-                    practiceNames: [],
-                    practiceURLs: [],
-                    linksNames: [],
-                    linksURLs: []
-                },
-                {
-                    name: 'Iterators - enabling for-loops',
+                    Name - enabling for-loops',
                     date: '02/17',
                     noteNames: ['Setup/Prep','notes'],
                     noteURLs: ['https://hackmd.io/@cs18-spring-2021/lec12setup','content/lectures/12iterators/12iterators.pdf'],
