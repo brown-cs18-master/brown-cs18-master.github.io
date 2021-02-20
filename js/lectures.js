@@ -243,8 +243,9 @@ Vue.component('page-content', {
                     recordingURLs: ['https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e6c6ee8-5a08-45c6-9ac1-accd011dc7dd'],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: ['final code'],
-                    linksURLs: [ "content/lectures/11dynarrays/lec11.zip"]
+                    linksNames: ['final code', 'lists recap'],
+                    linksURLs: [ "content/lectures/11dynarrays/lec11.zip",
+			       "https://hackmd.io/@cs18-spring-2021/lists-unit-recap"]
                 },
                 //{
                 //    name: 'NO CLASS (long weekend)',
@@ -259,7 +260,7 @@ Vue.component('page-content', {
                 //    linksURLs: []
                 // },
                 {
-                    Name - enabling for-loops',
+                    name: 'Iterators: enabling for-loops',
                     date: '02/17',
                     noteNames: ['Setup/Prep','notes'],
                     noteURLs: ['https://hackmd.io/@cs18-spring-2021/lec12setup','content/lectures/12iterators/12iterators.pdf'],
