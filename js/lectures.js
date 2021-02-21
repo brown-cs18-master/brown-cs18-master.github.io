@@ -281,8 +281,8 @@ Vue.component('page-content', {
                     recordingURLs: ['https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7054b4d8-d25c-4dc8-9b29-acd4011c6275'],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: [],
-                    linksURLs: []
+                    linksNames: ['Midterm Prep Guide'],
+                    linksURLs: ["https://hackmd.io/@cs18-spring-2021/midterm-prep-guide"]
                 },
                 // {
                 //     name: 'OOP: Access Modifiers',
@@ -299,7 +299,7 @@ Vue.component('page-content', {
                 //     linksURLs: []
                 // },
                 // {
-                //     name: 'OOP: Encapsulation',
+                //     name: 'Identifying Social Threats',
                 //     date: '02/24',
                 //     noteNames: [],
                 //     noteURLs: [
