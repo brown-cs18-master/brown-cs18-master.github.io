@@ -284,20 +284,18 @@ Vue.component('page-content', {
                     linksNames: ['Midterm Prep Guide'],
                     linksURLs: ["https://hackmd.io/@cs18-spring-2021/midterm-prep-guide"]
                 },
-                // {
-                //     name: 'OOP: Access Modifiers',
-                //     date: '02/22',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'OOP: Model-View-Controller',
+                    date: '02/22',
+                    noteNames: ['Setup/Prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec14setup"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Identifying Social Threats',
                 //     date: '02/24',
