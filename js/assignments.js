@@ -462,10 +462,11 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Regular Expressions',
-                    handoutURL: '',
+                    handoutURL: 'https://drive.google.com/file/d/1BvoB7TwvjerSDVjwbneMyAyp9-t-2Dn7/view?usp=sharing',
                     out: '02/24',
                     slidesName: 'Slides',
-                    slidesURL: '',
+                    slidesURL:
+                        'https://docs.google.com/presentation/d/1P3yG33wQM8IQmM0dkPN2SwYIvQcuStSjuIzPr_1TmaI/edit?usp=sharing',
                 },
                 {
                     name: 'Sorting/Reduce Time-Space',
