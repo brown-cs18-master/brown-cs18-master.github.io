@@ -224,8 +224,9 @@ Vue.component('page-content', {
                 {
                     name: 'Arrays: More-Efficient Lists?',
                     date: '02/10',
-                    noteNames: ['Setup/Prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec10setup"],
+                    noteNames: ['Setup/Prep', 'notes'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec10setup",
+			      "content/lectures/10arrays/10arrays.pdf"],
                     recordingNames: ['video'],
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2cb33f00-1602-449b-ba05-accb011bb34f"],
                     practiceNames: [],
@@ -294,23 +295,21 @@ Vue.component('page-content', {
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=27f09fa4-001f-42af-98b1-acd7011bc2d6"],
                     practiceNames: [],
                     practiceURLs: [],
+                    linksNames: ['final code'],
+                    linksURLs: ["content/lectures/14mvc/lec14mvc.zip"]
+                },
+                {
+                    name: 'Hashtables',
+                    date: '02/24',
+                    noteNames: ['Setup/prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec15setup"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Identifying Social Threats',
-                //     date: '02/24',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
                 // {
                 //     name: 'Hashtables: Use and How they Work',
                 //     date: '02/26',
