@@ -312,7 +312,7 @@ Vue.component('page-content', {
                     linksURLs: []
                 },
                 {
-                    Name: 'Hashtables Implementation',
+                    name: 'Hashtables Implementation',
                     date: '02/26',
                     noteNames: ['Setup/prep'],
                     noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec16setup"],
