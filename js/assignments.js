@@ -395,7 +395,7 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Hashtables; Iterator',
-                    handoutURL: '',
+                    handoutURL: 'https://hackmd.io/Icu1ICIURf-nOSZvkLboYg?view',
                     out: '02/26',
                     due: '03/08 11:59PM',
                 },
