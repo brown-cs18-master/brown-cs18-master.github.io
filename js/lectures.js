@@ -314,8 +314,10 @@ Vue.component('page-content', {
                 {
                     name: 'Hashtables Implementation',
                     date: '02/26',
-                    noteNames: ['Setup/prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec16setup"],
+                    noteNames: ['Setup/prep','slides','notes'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec16setup",
+			       "content/lectures/16hashtableimpl/slidedeck.pptx",
+			       "content/lectures/16hashtableimpl/16hashtableimpl.pdf"],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
