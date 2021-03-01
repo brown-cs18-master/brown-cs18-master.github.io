@@ -325,20 +325,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Hashtables: Implementation',
-                //     date: '03/01',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Exceptions',
+                    date: '03/01',
+                    noteNames: ['Setup/Prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec17setup"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Space Complexity; Intro to In-Place Sorting',
                 //     date: '03/03',
