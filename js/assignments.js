@@ -453,7 +453,7 @@ Vue.component('page-content', {
                         'https://docs.google.com/presentation/d/1IICIulMGBtEUfzY_p9whrkmzA3yanZDpU0JBc6dk0TU/edit?usp=sharing',
                 },
                 {
-                    name: 'I/O with CSV Parsing; Exceptions',
+                    name: 'File I/O',
                     handoutURL: 'https://drive.google.com/file/d/1eOUwJIpRB-Gc3X41l0VuT0OXvg15OtWl/view?usp=sharing',
                     out: '02/17',
                     slidesName: 'Slides',
@@ -469,14 +469,15 @@ Vue.component('page-content', {
                         'https://docs.google.com/presentation/d/1P3yG33wQM8IQmM0dkPN2SwYIvQcuStSjuIzPr_1TmaI/edit?usp=sharing',
                 },
                 {
-                    name: 'Sorting/Reduce Time-Space',
-                    handoutURL: '',
+                    name: 'Optimization',
+                    handoutURL: 'https://drive.google.com/file/d/10VSfH30Q7tpDqtHXDSvz4MxbETokGCFi/view?usp=sharing',
                     out: '03/03',
                     slidesName: 'Slides',
-                    slidesURL: '',
+                    slidesURL:
+                        'https://docs.google.com/presentation/d/1HDZG6yjJDN6QlrEVl8s3x_rVe8nAX-15rUZx34qmSt4/edit?usp=sharing',
                 },
                 {
-                    name: 'Scala var/val, Exceptions',
+                    name: 'Introduction to Scala',
                     handoutURL: '',
                     out: '03/10',
                     slidesName: 'Slides',
@@ -497,7 +498,7 @@ Vue.component('page-content', {
                     slidesURL: '',
                 },
                 {
-                    name: 'Understanding Dijkstra; Implementing Heaps',
+                    name: "Understanding Dijkstra's Algorithm",
                     handoutURL: '',
                     out: '03/31',
                     slidesName: 'Slides',
