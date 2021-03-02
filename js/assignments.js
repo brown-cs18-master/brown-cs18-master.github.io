@@ -534,8 +534,8 @@ Vue.component('page-content', {
             ],
             examAssignments: [
                 {
-                    name: 'Midterm',
-                    handoutURL: '',
+                    name: 'Midterm (On Gradescope)',
+                    handoutURL: 'https://www.gradescope.com/courses/224988',
                     out: '03/01',
                     due: '03/05 11:59PM',
                 },
