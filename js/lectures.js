@@ -317,7 +317,6 @@ Vue.component('page-content', {
                     noteNames: ['Setup/prep','slides','notes'],
                     noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec16setup",
 			       "content/lectures/16hashtableimpl/slidedeck.pptx",
-			        "content/lectures/17exceptions/17exceptions.pdf"
 			       "content/lectures/16hashtableimpl/16hashtableimpl.pdf"],
                     recordingNames: ['video'],
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=26d8a986-ff1e-4c5d-a0b7-acdb01209f11"],
@@ -331,7 +330,7 @@ Vue.component('page-content', {
                     date: '03/01',
                     noteNames: ['Setup/Prep', 'notes','exceptions demo'],
                     noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec17setup",
-			      ,
+			       "content/lectures/17exceptions/17exceptions.pdf",
 			       "content/lectures/17exceptions/ExceptionControlFlow.pptx"],
                     recordingNames: ['video'],
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e9090d9f-0b45-4742-9689-acdf001c508c"],
