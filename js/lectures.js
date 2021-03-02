@@ -337,20 +337,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Space Complexity; Intro to In-Place Sorting',
-                //     date: '03/03',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Social Threat Modeling',
+                    date: '03/03',
+                    noteNames: ['Setup/prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec18setup"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Scala: HOFs, Classes, Mechanics',
                 //     date: '03/05',
