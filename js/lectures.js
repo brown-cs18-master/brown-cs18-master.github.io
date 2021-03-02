@@ -328,8 +328,10 @@ Vue.component('page-content', {
                 {
                     name: 'Exceptions',
                     date: '03/01',
-                    noteNames: ['Setup/Prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec17setup"],
+                    noteNames: ['Setup/Prep', 'notes','exceptions demo'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec17setup",
+			       "content/lectures/17exceptions/lec17.zip",
+			       "content/lectures/17exceptions/ExceptionControlFlow.pptx"],
                     recordingNames: ['video'],
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e9090d9f-0b45-4742-9689-acdf001c508c"],
                     practiceNames: [],
