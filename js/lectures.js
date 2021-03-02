@@ -170,8 +170,8 @@ Vue.component('page-content', {
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=af601081-1f33-4ff3-970c-acbf011a8aa5"],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: [],
-                    linksURLs: []
+                    linksNames: ['final code'],
+                    linksURLs: ["content/lectures/05listsfunctional/lec05.zip"]
                 },
                 {
                     name: 'Field Mutation and Equality',
