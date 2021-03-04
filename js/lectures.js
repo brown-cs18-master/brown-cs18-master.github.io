@@ -344,6 +344,18 @@ Vue.component('page-content', {
                     date: '03/03',
                     noteNames: ['Setup/prep'],
                     noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec18setup"],
+                    recordingNames: ['video'],
+                    recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7b78bedc-053e-4764-b651-ace0011d7507"],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
+                {
+                    name: 'Scala: Introduction/Functional Programming',
+                    date: '03/05',
+                    noteNames: ['Setup/prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec19setup"],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
@@ -351,20 +363,6 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Scala: HOFs, Classes, Mechanics',
-                //     date: '03/05',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
                 // {
                 //     name: 'Scala: Traits',
                 //     date: '03/08',
