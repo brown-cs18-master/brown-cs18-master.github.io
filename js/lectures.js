@@ -354,14 +354,15 @@ Vue.component('page-content', {
                 {
                     name: 'Scala: Introduction/Functional Programming',
                     date: '03/05',
-                    noteNames: ['Setup/prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec19setup"],
+                    noteNames: ['Setup/prep', 'notes'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec19setup",
+			      "content/lectures/19scala/19scala.pdf"],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: [],
-                    linksURLs: []
+                    linksNames: ['final code'],
+                    linksURLs: ["content/lectures/19scala/Intro.scala"]
                 },
                 // {
                 //     name: 'Scala: Traits',
