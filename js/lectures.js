@@ -342,8 +342,9 @@ Vue.component('page-content', {
                 {
                     name: 'Social Threat Modeling',
                     date: '03/03',
-                    noteNames: ['Setup/prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec18setup"],
+                    noteNames: ['Setup/prep', 'notes'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec18setup",
+			      "content/lectures/18socialthreats/18socialthreats.pdf"],
                     recordingNames: ['video'],
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7b78bedc-053e-4764-b651-ace0011d7507"],
                     practiceNames: [],
