@@ -365,20 +365,18 @@ Vue.component('page-content', {
                     linksNames: ['final code'],
                     linksURLs: ["content/lectures/19scala/Intro.scala"]
                 },
-                // {
-                //     name: 'Scala: Traits',
-                //     date: '03/08',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Scala: Traits/OO Programming',
+                    date: '03/08',
+                    noteNames: ['Setup/prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec20setup"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Scala: var, val, Loops, Exceptions',
                 //     date: '03/10',
