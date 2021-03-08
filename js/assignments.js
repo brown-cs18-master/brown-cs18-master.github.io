@@ -401,7 +401,7 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Scala',
-                    handoutURL: '',
+                    handoutURL: 'https://hackmd.io/gMYIJ2snSyuhtRYMzYC5tQ?view',
                     out: '03/08',
                     due: '03/15 11:59PM',
                 },
