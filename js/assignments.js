@@ -401,7 +401,7 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Scala',
-                    handoutURL: '',
+                    handoutURL: 'https://hackmd.io/gMYIJ2snSyuhtRYMzYC5tQ?view',
                     out: '03/08',
                     due: '03/15 11:59PM',
                 },
@@ -478,10 +478,11 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Introduction to Scala',
-                    handoutURL: '',
+                    handoutURL: 'https://drive.google.com/file/d/10Nwxkv8ybFkDcbXWsjp5pkEgRLGAt-uF/view?usp=sharing',
                     out: '03/10',
                     slidesName: 'Slides',
-                    slidesURL: '',
+                    slidesURL:
+                        'https://docs.google.com/presentation/d/12lvSMcL_S6A4tW5Vgjy4hLJhRDp-NPyhUhQvFtJMbr8/edit?usp=sharing',
                 },
                 {
                     name: 'Understanding PageRank',
