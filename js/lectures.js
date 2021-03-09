@@ -378,20 +378,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Scala: var, val, Loops, Exceptions',
-                //     date: '03/10',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Scala, odds and ends',
+                    date: '03/10',
+                    noteNames: ['No Prep Needed'],
+                    noteURLs: [""],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Heaps and Priority Queues (Conceptual)',
                 //     date: '03/12',
