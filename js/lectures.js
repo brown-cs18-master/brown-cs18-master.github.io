@@ -381,14 +381,14 @@ Vue.component('page-content', {
                 {
                     name: 'Scala, odds and ends',
                     date: '03/10',
-                    noteNames: ['No Prep Needed'],
-                    noteURLs: [""],
+                    noteNames: ['No Prep Needed', 'notes'],
+                    noteURLs: ["", "content/lectures/21scalaMutableMisc/21scalaMutableMisc.pdf"],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: [],
-                    linksURLs: []
+                    linksNames: ['code file'],
+                    linksURLs: ["content/lectures/21scalaMutableMisc/Bookings.scala"]
                 },
                 // {
                 //     name: 'Heaps and Priority Queues (Conceptual)',
