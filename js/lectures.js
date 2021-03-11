@@ -390,20 +390,18 @@ Vue.component('page-content', {
                     linksNames: ['code file'],
                     linksURLs: ["content/lectures/21scalaMutableMisc/Bookings.scala"]
                 },
-                // {
-                //     name: 'Heaps and Priority Queues (Conceptual)',
-                //     date: '03/12',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Heaps and Priority Queues (Conceptual)',
+                    date: '03/12',
+                    noteNames: ['Setup/prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec22setup"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Heaps (Implementation)',
                 //     date: '03/15',
