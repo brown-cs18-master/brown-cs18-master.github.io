@@ -522,7 +522,7 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Search',
-                    handoutURL: '',
+                    handoutURL: 'https://hackmd.io/@cs18-spring-2021/ByeYGEiCD',
                     out: '03/12',
                     due: '03/26 11:59PM',
                 },
