@@ -406,8 +406,9 @@ Vue.component('page-content', {
                 {
                     name: 'Heaps (Implementation)',
                     date: '03/15',
-                    noteNames: ['Setup/prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec23setup"],
+                    noteNames: ['Setup/prep','notes'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec23setup",
+			      "content/lectures/23heapsImpl/23heapsImpl.pdf"],
                     recordingNames: ['video'],
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7552d1db-e48a-4d56-af30-acec010d9d99"],
                     practiceNames: [],
@@ -416,7 +417,7 @@ Vue.component('page-content', {
                     linksURLs: []
                 },
                 // {
-                //     name: 'Heapsort; sub n-log-n sorting',
+                //     name: 'Heapsort; in-place sorting',
                 //     date: '03/17',
                 //     noteNames: [],
                 //     noteURLs: [
