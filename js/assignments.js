@@ -486,10 +486,11 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Understanding PageRank',
-                    handoutURL: '',
+                    handoutURL: 'https://drive.google.com/file/d/1Bp5CEwLykALZhZTEZb1qnwgIo5hcqGEa/view?usp=sharing',
                     out: '03/17',
                     slidesName: 'Slides',
-                    slidesURL: '',
+                    slidesURL:
+                        'https://docs.google.com/presentation/d/1UHYFykzWkRCli5NGHalANMjTzSHlT_XZd4nPd85rbMk/edit?usp=sharing',
                 },
                 {
                     name: 'Dynamic Programming',
