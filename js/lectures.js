@@ -416,18 +416,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Heapsort; in-place sorting',
-                //     date: '03/17',
-                //     noteNames: ['Setup/prep'],
-                //     noteURLs: ['https://hackmd.io/@cs18-spring-2021/lec24setup"]
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Heaps (Practical Uses)',
+                    date: '03/17',
+                    noteNames: ['Setup/prep'],
+                    noteURLs: ['https://hackmd.io/@cs18-spring-2021/lec24setup"]
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Socially-Responsible Computing (SRC) Case Study',
                 //     date: '03/12',
