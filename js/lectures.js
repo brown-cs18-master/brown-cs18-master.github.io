@@ -420,7 +420,7 @@ Vue.component('page-content', {
                     name: 'Heaps (Practical Uses)',
                     date: '03/17',
                     noteNames: ['Setup/prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec24setup"]
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec24setup"],
                     recordingNames: [],
                     recordingURLs: [],
                     practiceNames: [],
