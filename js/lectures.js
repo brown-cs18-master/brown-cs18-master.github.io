@@ -419,10 +419,8 @@ Vue.component('page-content', {
                 // {
                 //     name: 'Heapsort; in-place sorting',
                 //     date: '03/17',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
+                //     noteNames: ['Setup/prep'],
+                //     noteURLs: ['https://hackmd.io/@cs18-spring-2021/lec24setup"]
                 //     recordingNames: [],
                 //     recordingURLs: [],
                 //     practiceNames: [],
