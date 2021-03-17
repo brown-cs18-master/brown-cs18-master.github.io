@@ -419,8 +419,9 @@ Vue.component('page-content', {
                 {
                     name: 'Heaps (Practical Uses)',
                     date: '03/17',
-                    noteNames: ['Setup/prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec24setup"],
+                    noteNames: ['Setup/prep','notes'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec24setup",
+			      "content/lectures/24heapsUse/24heapsUse.pdf"],
                     recordingNames: ['video'],
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1fda3159-74e1-4b87-8e6f-acee010c8b55"],
                     practiceNames: [],
