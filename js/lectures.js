@@ -431,7 +431,7 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Memory Usage of Programs',
-                    date: '03/12',
+                    date: '03/19',
                     noteNames: ['Setup/prep'],
                     noteURLs: ["https://hackmd.io/@cs18-spring-2021/Byd_O4ZVd"],
                     recordingNames: [],
