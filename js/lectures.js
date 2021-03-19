@@ -430,12 +430,12 @@ Vue.component('page-content', {
                     linksURLs: []
                 },
                 {
-                    name: 'Memory Usage of Programs',
+                    name: 'Managing Memory Usage',
                     date: '03/19',
                     noteNames: ['Setup/prep'],
                     noteURLs: ["https://hackmd.io/@cs18-spring-2021/Byd_O4ZVd"],
-                    recordingNames: [],
-                    recordingURLs: [],
+                    recordingNames: ['video'],
+                    recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a290ddaa-51f4-42eb-a663-acf0010cf54f"],
                     practiceNames: [],
                     practiceURLs: [],
                     linksNames: [],
