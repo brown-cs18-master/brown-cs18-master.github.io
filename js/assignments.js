@@ -494,10 +494,11 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Dynamic Programming',
-                    handoutURL: '',
+                    handoutURL: 'https://drive.google.com/file/d/1nvxQ7KJfVIMxgTL9xH-GKvJdeNOQpnUx/view?usp=sharing',
                     out: '03/24',
                     slidesName: 'Slides',
-                    slidesURL: '',
+                    slidesURL:
+                        'https://docs.google.com/presentation/d/1YhCrNyYYf03w00Cwf9rbkLJXSX8g-Br4jD_ESRc7mrs/edit?usp=sharing',
                 },
                 {
                     name: "Understanding Dijkstra's Algorithm",
