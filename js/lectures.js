@@ -446,7 +446,7 @@ Vue.component('page-content', {
                     date: '03/22',
                     noteNames: ['Setup/prep','notes'],
                     noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec26setup",
-			       "26dynprog1.pdf"],
+			       "content/lectures/26dynprog1/26dynprog1.pdf"],
                     recordingNames: ['video'],
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cbfdb253-5897-42eb-be91-acf3010e135f"],
                     practiceNames: [],
