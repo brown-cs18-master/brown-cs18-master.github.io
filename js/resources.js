@@ -72,6 +72,7 @@ const softwareSetupSection = {
                     <li><page-link title="intellij setup guide" href="https://hackmd.io/@cs18-spring-2021/rkqhvPyy_" text="Intellij Setup Guide"></page-link></li>
                     <li><page-link title="github guide" href="https://hackmd.io/@cs18-spring-2021/BkfI_Pky_" text="Github Guide"></page-link></li>
                     <li><page-link title="tester jar" href="content/resources/tester.jar" text="Download tester.jar (If prompted, press 'Keep' to proceed with download.)"></page-link></li>
+                    <li><page-link title="connecting to department machines" href="https://cs.brown.edu/about/system/connecting/ssh/" text="Connecting to Department Machines"></page-link></li>
                 </ul>
             </div>
         </section>
@@ -246,7 +247,7 @@ Vue.component('page-content', {
                 :cur-page-theme-color="curPageThemeColor"
                 :cur-page-icon-classes="curPageIconClasses"
             >
-            </software-setup-section>      
+            </software-setup-section>
             <coding-resources-section
                 :cur-page-theme-color="curPageThemeColor"
                 :cur-page-icon-classes="curPageIconClasses"
