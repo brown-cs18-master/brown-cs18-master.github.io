@@ -466,20 +466,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Graphs Intro',
-                //     date: '03/26',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Graphs Intro',
+                    date: '03/26',
+                    noteNames: ['Setup/prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec28setup"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Breadth-First Search; Depth-First Search',
                 //     date: '03/29',
