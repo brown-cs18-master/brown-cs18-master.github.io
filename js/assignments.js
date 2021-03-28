@@ -502,10 +502,11 @@ Vue.component('page-content', {
                 },
                 {
                     name: "Understanding Dijkstra's Algorithm",
-                    handoutURL: '',
+                    handoutURL: 'https://drive.google.com/file/d/16_ex42B1v9VloYnZMkpYe4HjlSrPnCYe/view?usp=sharing',
                     out: '03/31',
                     slidesName: 'Slides',
-                    slidesURL: '',
+                    slidesURL:
+                        'https://docs.google.com/presentation/d/15EwjEL_QTJbaGLWo8z1wdrV9TB3mqqrCXZmq7Q43_tM/edit?usp=sharing',
                 },
                 {
                     name: 'Garbage Collection',
