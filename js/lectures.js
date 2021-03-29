@@ -479,20 +479,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Breadth-First Search; Depth-First Search',
-                //     date: '03/29',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Breadth-First Search; Depth-First Search',
+                    date: '03/29',
+                    noteNames: ['Setup/pre'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/H1NVgLJru"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Graphs: Dijkstra\'s Algorithm',
                 //     date: '03/31',
