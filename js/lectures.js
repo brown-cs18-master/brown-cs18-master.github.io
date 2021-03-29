@@ -482,10 +482,10 @@ Vue.component('page-content', {
                 {
                     name: 'Breadth-First Search; Depth-First Search',
                     date: '03/29',
-                    noteNames: ['Setup/pre'],
+                    noteNames: ['Setup/prep'],
                     noteURLs: ["https://hackmd.io/@cs18-spring-2021/H1NVgLJru"],
-                    recordingNames: [],
-                    recordingURLs: [],
+                    recordingNames: ['video'],
+                    recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7685eeeb-2c07-4bef-9847-acfa010d1e4a"],
                     practiceNames: [],
                     practiceURLs: [],
                     linksNames: [],
