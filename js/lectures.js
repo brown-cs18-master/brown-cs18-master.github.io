@@ -457,8 +457,9 @@ Vue.component('page-content', {
                 {
                     name: 'Dynamic Programming 2',
                     date: '03/24',
-                    noteNames: ['Setup/prep'],
-                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/B1UIuc8Ed"],
+                    noteNames: ['Setup/prep',"notes"],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/B1UIuc8Ed",
+			      "content/lectures/27dynprog2/27dynprog2.pdf"],
                     recordingNames: ['video'],
                     recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=86cca153-6b57-4689-9e93-acf5010fa9c9"],
                     practiceNames: [],
