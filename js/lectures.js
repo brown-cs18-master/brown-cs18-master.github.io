@@ -492,20 +492,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Graphs: Dijkstra\'s Algorithm',
-                //     date: '03/31',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Graphs: Shortest Paths (Dijkstra)',
+                    date: '03/31',
+                    noteNames: ['Setup/prep'],
+                    noteURLs: ["brown-cs18-master.github.io/content/lectures/30dijkstra/30-slide-handout.pptx"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Minimum Spanning Trees',
                 //     date: '04/02',
