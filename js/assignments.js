@@ -409,7 +409,7 @@ Vue.component('page-content', {
                     name: 'Dynamic Programming; SRC',
                     handoutURL: 'https://hackmd.io/8W_zNgz1RUaTHSHfThObew?view',
                     out: '03/26',
-                    due: '04/02 11:59PM',
+                    due: '04/04 11:59PM',
                 },
             ],
             labAssignments: [
