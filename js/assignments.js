@@ -531,7 +531,7 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Model Checking',
-                    handoutURL: '',
+                    handoutURL: 'https://hackmd.io/@cs18-spring-2021/ByKuDrj0w',
                     out: '04/02',
                     due: '04/16 11:59PM',
                 },
