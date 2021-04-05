@@ -510,10 +510,11 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Garbage Collection',
-                    handoutURL: '',
+                    handoutURL: 'https://drive.google.com/file/d/1iU3SmoRmXsgyHLfeOsG3oM1lKDo5IcfD/view?usp=sharing',
                     out: '04/07',
                     slidesName: 'Slides',
-                    slidesURL: '',
+                    slidesURL:
+                        'https://docs.google.com/presentation/d/1nBgWtGmD2YfdyipFFfZOvrrUWtcY6g17_sVNiY4qnO4/edit?usp=sharing',
                 },
             ],
             projectAssignments: [
@@ -531,7 +532,7 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Model Checking',
-                    handoutURL: '',
+                    handoutURL: 'https://hackmd.io/@cs18-spring-2021/ByKuDrj0w',
                     out: '04/02',
                     due: '04/16 11:59PM',
                 },
