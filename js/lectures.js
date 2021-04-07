@@ -518,20 +518,19 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Union-Find and Disjoint Sets',
-                //     date: '04/05',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Union-Find and Disjoint Sets',
+                    date: '04/05',
+                    noteNames: ['Setup/prep','notes'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/SJaxbuuSd",
+			      "content/lectures/32unionfind/32unionfind.pdf"],
+                    recordingNames: ['video'],
+                    recordingURLs: ['https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=530e9277-7f9f-497e-aa88-ad01010c6821'],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Balanced Binary Search Trees',
                 //     date: '04/07',
