@@ -510,7 +510,7 @@ Vue.component('page-content', {
                 },
                 {
                     name: 'Garbage Collection',
-                    handoutURL: 'https://drive.google.com/file/d/1iU3SmoRmXsgyHLfeOsG3oM1lKDo5IcfD/view?usp=sharing',
+                    handoutURL: 'https://drive.google.com/file/d/1NUyLvGOADFqGii84VkW7phkyf9pa3YW0/view?usp=sharing',
                     out: '04/07',
                     slidesName: 'Slides',
                     slidesURL:
