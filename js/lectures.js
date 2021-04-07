@@ -531,20 +531,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Balanced Binary Search Trees',
-                //     date: '04/07',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Balanced Binary Search Trees',
+                    date: '04/07',
+                    noteNames: [],
+                    noteURLs: [],
+                    recordingNames: ['video'],
+                    recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5e305899-c8bb-4ec4-ba24-ad03010d1b04"],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'NO CLASS',
                 //     date: '04/09',
