@@ -532,7 +532,7 @@ Vue.component('page-content', {
                     linksURLs: []
                 },
                 {
-                    name: 'Balanced Binary Search Trees',
+                    name: 'Large Graphs/Binary Decision Diagrams',
                     date: '04/07',
                     noteNames: [],
                     noteURLs: [],
@@ -543,20 +543,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'NO CLASS',
-                //     date: '04/09',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'NO CLASS -- Spring Weekend',
+                    date: '04/09',
+                    noteNames: [],
+                    noteURLs: [],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Data Scenario 1',
                 //     date: '04/12',
