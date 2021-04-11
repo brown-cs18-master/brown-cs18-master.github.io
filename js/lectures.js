@@ -555,20 +555,18 @@ Vue.component('page-content', {
                     linksNames: [],
                     linksURLs: []
                 },
-                // {
-                //     name: 'Data Scenario 1',
-                //     date: '04/12',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Data Structure Design Practice',
+                    date: '04/12',
+                    noteNames: ['Setup/prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec34setup"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
                 // {
                 //     name: 'Data Scenario 2',
                 //     date: '04/14',
