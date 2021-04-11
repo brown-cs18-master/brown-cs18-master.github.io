@@ -564,8 +564,8 @@ Vue.component('page-content', {
                     recordingURLs: [],
                     practiceNames: [],
                     practiceURLs: [],
-                    linksNames: [],
-                    linksURLs: []
+                    linksNames: ['Final Prep Guide'],
+                    linksURLs: ['https://hackmd.io/@cs18-spring-2021/finalExamPrep']
                 },
                 // {
                 //     name: 'Data Scenario 2',
