@@ -547,7 +547,7 @@ Vue.component('page-content', {
                 {
                     name: 'Final (On Gradescope)',
                     handoutURL: 'https://hackmd.io/@cs18-spring-2021/finalExamPrep',
-                    out: '04/19',
+                    out: '04/19 08:00AM',
                     due: '04/23',
                 },
             ],
