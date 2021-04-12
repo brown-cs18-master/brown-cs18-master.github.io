@@ -560,8 +560,8 @@ Vue.component('page-content', {
                     date: '04/12',
                     noteNames: ['Setup/prep'],
                     noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec34setup"],
-                    recordingNames: [],
-                    recordingURLs: [],
+                    recordingNames: ['video'],
+                    recordingURLs: ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=804c8390-bc51-4eee-a357-ad08010d5db6"],
                     practiceNames: [],
                     practiceURLs: [],
                     linksNames: ['Final Prep Guide'],
@@ -570,20 +570,6 @@ Vue.component('page-content', {
                 // {
                 //     name: 'Data Scenario 2',
                 //     date: '04/14',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
-                // {
-                //     name: 'BDDs',
-                //     date: '04/16',
                 //     noteNames: [],
                 //     noteURLs: [
 
