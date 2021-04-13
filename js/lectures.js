@@ -567,20 +567,18 @@ Vue.component('page-content', {
                     linksNames: ['Final Prep Guide'],
                     linksURLs: ['https://hackmd.io/@cs18-spring-2021/finalExamPrep']
                 },
-                // {
-                //     name: 'Data Scenario 2',
-                //     date: '04/14',
-                //     noteNames: [],
-                //     noteURLs: [
-
-                //     ],
-                //     recordingNames: [],
-                //     recordingURLs: [],
-                //     practiceNames: [],
-                //     practiceURLs: [],
-                //     linksNames: [],
-                //     linksURLs: []
-                // },
+                {
+                    name: 'Final Exam Review',
+                    date: '04/14',
+                    noteNames: ['Setup/prep'],
+                    noteURLs: ["https://hackmd.io/@cs18-spring-2021/lec35setup"],
+                    recordingNames: [],
+                    recordingURLs: [],
+                    practiceNames: [],
+                    practiceURLs: [],
+                    linksNames: [],
+                    linksURLs: []
+                },
             ],
             now: moment(),
             tableheads: [
